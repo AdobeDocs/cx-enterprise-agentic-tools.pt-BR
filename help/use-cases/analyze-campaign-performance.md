@@ -2,7 +2,7 @@
 title: Insights de campanha de superfície sem criar relatórios
 description: Use o gateway do CX Enterprise MCP para fazer perguntas sobre o desempenho do Customer Journey Analytics em linguagem simples e obter respostas sem navegar pelos Report Builder.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -86,6 +86,7 @@ What data views are available in my CJA account?
 
 +++
 
+
 ## Etapa 2: Extrair dados de desempenho da campanha
 
 Com uma visualização de dados identificada, peça o desempenho da campanha por receita e taxa de conversão. A IA resolve nomes de métricas e dimensões da visualização de dados sem exigir IDs técnicas.
@@ -99,6 +100,7 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 ![Cliente de IA mostrando as principais campanhas por receita e taxa de conversão do Omni-Channel - visualização de dados de várias indústrias](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -118,6 +120,7 @@ What factors are driving the results for these campaign groups?
 
 +++
 
+
 ## Etapa 4: detalhar um tipo de campanha específico
 
 Acompanhe uma descoberta específica solicitando um detalhamento em nível de segmento. Isso revela quais tipos de clientes estão impulsionando o desempenho em um tipo de campanha.
@@ -132,6 +135,7 @@ Break down Promotional Email Campaigns by Customer Segment and explain what's dr
 
 +++
 
+
 ## Etapa 5: executar ação sobre o que você encontrou
 
 Peça recomendações priorizadas com base em tudo o que foi revelado na sessão. A solicitação de estimativas de valor comercial ajuda a decidir por onde agir primeiro.
@@ -145,6 +149,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 ![Cliente de IA recomendando ações priorizadas com valor comercial estimado](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -262,6 +267,7 @@ Save this analysis as a Workspace project for executive reporting.
 
 +++
 
+
 ## Informações adicionais
 
 | Recurso | O que você encontrará |
@@ -269,4 +275,4 @@ Save this analysis as a Workspace project for executive reporting.
 | [Documentação do CJA MCP Server](https://developer.adobe.com/analytics-mcp/docs/cja/) | Referência completa da ferramenta e guia de configuração |
 | [Guias de uso do CJA MCP](https://developer.adobe.com/analytics-mcp/docs/guides/) | Guias de uso detalhados |
 | [Servidor MCP do CJA no Registro de IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | Disponibilidade e ferramentas do CJA MCP Server |
-| [Documentação do Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-landing) | Documentação completa do aplicativo do CJA |
+| [Documentação do Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing) | Documentação completa do aplicativo do CJA |
