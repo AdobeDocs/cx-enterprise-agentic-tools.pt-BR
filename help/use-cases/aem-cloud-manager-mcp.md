@@ -2,7 +2,7 @@
 title: Implante no AEM as a Cloud Service com confiança
 description: Verifique a integridade do ambiente, revise o histórico do pipeline e acione ou gerencie implantações sem sair do cliente de IA.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 1%
@@ -130,6 +130,7 @@ What is the status of the production environment?
 
 +++
 
+
 ## Etapa 2: revisar execuções de pipeline
 
 Revise o histórico recente de pipelines para entender os padrões de implantação e detectar falhas antes que eles bloqueiem sua próxima versão.
@@ -144,6 +145,7 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++
 
+
 ## Etapa 3: acionar um pipeline
 
 Inicie uma execução de pipeline diretamente do seu cliente de IA. O servidor confirma o ambiente de destino e solicita aprovação antes de iniciar.
@@ -157,6 +159,7 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 ![O cliente da IA mostrando a confirmação do acionador do pipeline e a interface do Cloud Manager refletindo o pipeline em execução](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif)
 
 +++
+
 
 >[!CAUTION]
 >
@@ -175,6 +178,7 @@ What is the status of the triggered pipeline?
 ![Cliente de IA mostrando o status da execução do pipeline disparada](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png)
 
 +++
+
 
 ## O que você realizou
 
@@ -267,6 +271,7 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 ```
 
 +++
+
 
 ## Informações adicionais
 

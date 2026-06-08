@@ -2,17 +2,16 @@
 title: Identifique problemas de jornada antes que afetem os clientes
 description: Use o gateway do CX Enterprise MCP para monitorar jornadas ativas do AJO, revisar a configuração da campanha e exibir problemas operacionais antes que eles atinjam seu público-alvo.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 135f151c50464461c48fa09d4a7efad20b96cc73
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1008'
 ht-degree: 3%
 
 ---
 
 
 # Identifique problemas de jornada antes que afetem os clientes
-
-<!-- last-modified: 2026-06-02 -->
+<!-- last-modified: 2026-06-08 -->
 
 ![Analisar Jornadas do AJO](https://placehold.co/1600x900?text=Review+AJO+Journeys)
 
@@ -26,6 +25,7 @@ Obter uma visão clara de quais jornadas estão ativas, quais condições as imp
 | Pré-requisito | Cliente de IA compatível com MCP, acesso ao AJO |
 
 Cada etapa mostra um prompt representativo e um exemplo de resposta de IA. Segue-se uma seção **Mais que você pode realizar** para exploração adicional na mesma sessão.
+
 
 ## Antes de começar
 
@@ -72,6 +72,7 @@ Instruções completas de instalação para todos os clientes com suporte: [Cone
 >
 >Algumas ferramentas solicitam sua aprovação antes de serem executadas. Revise a solicitação e aprove ou recuse — nenhuma ação é executada sem sua confirmação.
 
+
 ## Etapa 1: Descubra jornadas ativas e sua finalidade
 
 Comece solicitando um inventário das jornadas ativas e os objetivos de negócios por trás delas. Isso dá a você o quadro completo antes de mergulhar em qualquer jornada específica.
@@ -85,6 +86,8 @@ What customer journeys are currently available and what business objectives do t
 ![Lista de clientes de IA disponíveis para jornadas e seus objetivos comerciais](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif)
 
 +++
+
+
 
 ## Etapa 2: analisar as etapas de uma jornada e a experiência do cliente
 
@@ -100,9 +103,11 @@ Walk me through the [journey name] journey and explain the customer experience.
 
 +++
 
+
 >[!NOTE]
 >
 >Substitua `[journey name]` com o nome de uma jornada dos resultados da etapa 1.
+
 
 ## Etapa 3: revisar campanhas, públicos e objetivos
 
@@ -118,6 +123,8 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 +++
 
+
+
 ## Etapa 4: entender como as campanhas e o jornada se conectam
 
 Peça ao cliente de IA para conectar os pontos entre campanhas e jornadas e explicar como elas trabalham juntas em direção a metas de engajamento compartilhado.
@@ -131,6 +138,8 @@ How do our campaigns and journeys work together to improve customer engagement?
 ![Cliente de IA explicando a relação entre campanhas e jornadas](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png)
 
 +++
+
+
 
 ## Etapa 5: Obtenha recomendações priorizadas
 
@@ -146,13 +155,16 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 +++
 
+
 >[!NOTE]
 >
 >O AJO MCP Server exibe informações de jornada e campanha, mas não pode modificar jornadas, campanhas ou conteúdo. Para implementar as recomendações, acesse o aplicativo do AJO diretamente ou conecte o AEM Content MCP Server para alterações de conteúdo na mesma sessão.
 
+
 ## O que você realizou
 
-Você conectou um cliente de IA à Adobe Journey Optimizer e criou uma imagem completa do seu portfólio do jornada e da campanha por meio de cinco prompts. Você inventariou jornadas ativas e seus objetivos de negócios, analisou a experiência passo a passo do cliente para uma jornada específica, mapeou campanhas ativas para seus públicos e resultados pretendidos, entendeu como as campanhas e jornadas se conectam e recebeu recomendações priorizadas sobre onde se concentrar em seguida. Isso proporciona visibilidade estratégica ao marketing de ciclo de vida e aos gerentes de campanha sem precisar abrir a interface do AJO.
+Você conectou um cliente de IA à Adobe Journey Optimizer e criou uma imagem completa do seu portfólio do jornada e da campanha por meio de cinco prompts. Você inventariou jornadas ativas e seus objetivos de negócios, revisou a experiência passo a passo do cliente para uma jornada específica, mapeou campanhas ativas para seus públicos e resultados pretendidos, entendeu como campanhas e jornadas funcionam juntas e recebeu recomendações priorizadas sobre onde se concentrar em seguida. Isso proporciona visibilidade estratégica ao marketing de ciclo de vida e aos gerentes de campanha sem precisar abrir a interface do AJO.
+
 
 ## Mais você pode realizar
 
@@ -233,6 +245,8 @@ What channel configurations are set up in our AJO environment?
 ```
 
 +++
+
+
 
 ## Informações adicionais
 

@@ -2,7 +2,7 @@
 title: Executar uma revisão de campanha entre canais
 description: Use o gateway do CX Enterprise MCP em uma única sessão de IA para obter uma visualização unificada da integridade de campanha do AJO, CJA e Real-Time CDP em jornadas, públicos e desempenho.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 4%
@@ -99,6 +99,7 @@ Foram encontradas 8 jornadas ativas em sua organização da AJO:
 
 +++
 
+
 ## Etapa 2: verificar o status de ativação do público
 
 Com as jornadas em exibição, verifique se os públicos-alvo que alimentam essas campanhas estão fluindo corretamente para os destinos.
@@ -122,6 +123,7 @@ Nenhum erro de fluxo de dados detectado. Todas as ativações foram concluídas 
 
 +++
 
+
 ## Etapa 3: Extrair métricas de desempenho do CJA
 
 Com o contexto de jornada e público-alvo estabelecido, use o CJA para avaliar como essas campanhas estão se convertendo e onde o engajamento cai.
@@ -143,6 +145,7 @@ Show me click-through and conversion rates for the [campaign name] campaign over
 Taxa de conversão combinada: 3,8%. O CTR de email está 1,2% acima do período anterior de 30 dias. As conversões por push são simples.
 
 +++
+
 
 ## Etapa 4: sintetizar um resumo de integridade da campanha
 
@@ -170,6 +173,7 @@ Este é o resumo atual da integridade da campanha no AJO, Real-Time CDP e CJA:
 Nenhum problema crítico detectado. Dois itens acima garantem revisão antes do próximo lançamento da campanha.
 
 +++
+
 
 É nesse ponto que a abordagem de vários servidores compensa: os motivos de seu cliente de IA abrangem a configuração da jornada, o status do público-alvo e os dados de desempenho em uma única conversa.
 
@@ -199,6 +203,7 @@ A conversão simples geralmente sinaliza fadiga da mensagem ou uma incompatibili
 Com o que você gostaria de começar?
 
 +++
+
 
 ## O que você realizou
 
@@ -279,6 +284,7 @@ Which channel has the highest conversion rate across all active campaigns?
 ```
 
 +++
+
 
 ## Informações adicionais
 

@@ -2,7 +2,7 @@
 title: Entenda seus públicos-alvo e onde eles são ativados
 description: Use o gateway do CX Enterprise MCP para monitorar o status de ativação do público-alvo, verificar a integridade do destino e exibir problemas antes que eles afetem suas campanhas.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 2%
@@ -82,6 +82,7 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++
 
+
 ## Etapa 2: identificar os segmentos mais valiosos
 
 Com o público-alvo no modo de exibição, pergunte quais segmentos são maiores e o que os torna estrategicamente valiosos.
@@ -95,6 +96,7 @@ Which audiences are the largest and what makes them valuable?
 ![Cliente de IA identificando os maiores públicos e explicando o que os torna valiosos](../assets/use-cases/query-audiences/query-audiences-step2.gif)
 
 +++
+
 
 ## Etapa 3: revisar a ativação e os destinos
 
@@ -110,6 +112,7 @@ Where are our audiences currently being activated and to which destinations?
 
 +++
 
+
 ## Etapa 4: obter recomendações estratégicas
 
 As ferramentas RTCDP do gateway do CX Enterprise MCP são somente leitura — elas exibem o status de ativação, a integridade do destino e os dados de fluxo de dados, mas não modificam a configuração. Depois de identificar um problema, a correção acontece no aplicativo.
@@ -123,6 +126,7 @@ If you were our audience strategist, what would you prioritize next and why?
 ![Cliente de IA dando recomendações de estratégia de público-alvo priorizado](../assets/use-cases/query-audiences/query-audiences-step4.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -219,6 +223,7 @@ Are there any audiences using a non-default merge policy that could cause profil
 ```
 
 +++
+
 
 ## Informações adicionais
 
