@@ -2,10 +2,10 @@
 title: Habilidades do agente
 description: Fluxos de trabalho e instruções com curadoria da Adobe que orientam os agentes de IA por meio de tarefas do CX Enterprise de forma consistente.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 3c29bfeeef3d2cb523724db02448aaa77cdf8900
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 2%
+source-wordcount: '699'
+ht-degree: 6%
 
 ---
 
@@ -65,6 +65,126 @@ CARDS
   {image = ../assets/agent-skills-creative-cloud.png}
 
 -->
+<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Adobe Experience Manager">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://github.com/adobe/skills/tree/main/plugins/aem" title="Adobe Experience Manager" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/agent-skills-aem-card.png" alt="Adobe Experience Manager"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://github.com/adobe/skills/tree/main/plugins/aem" target="_blank" rel="referrer" title="Adobe Experience Manager">Adobe Experience Manager</a>
+                    </p>
+                    <p class="is-size-6">Habilidades do agente para desenvolvimento, conteúdo, design e gerenciamento de projetos do Experience Manager em AEM as a Cloud Service, Edge Delivery Services e AEM 6.5 LTS.</p>
+                </div>
+                <a href="https://github.com/adobe/skills/tree/main/plugins/aem" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Exibir habilidades do agente</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Adobe Analytics">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://github.com/adobe/skills/tree/main/plugins/adobe-analytics" title="Adobe Analytics" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/agent-skills-analytics-card.png" alt="Adobe Analytics"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://github.com/adobe/skills/tree/main/plugins/adobe-analytics" target="_blank" rel="referrer" title="Adobe Analytics">Adobe Analytics</a>
+                    </p>
+                    <p class="is-size-6">Habilidades do agente para monitoramento de KPI, análise do funnel e workflows de relatórios executivos no Adobe Analytics.</p>
+                </div>
+                <a href="https://github.com/adobe/skills/tree/main/plugins/adobe-analytics" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Exibir habilidades do agente</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Customer Journey Analytics">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://github.com/adobe/skills/tree/main/plugins/adobe-cja" title="Customer Journey Analytics" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/agent-skills-cja-card.png" alt="Customer Journey Analytics"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://github.com/adobe/skills/tree/main/plugins/adobe-cja" target="_blank" rel="referrer" title="Customer Journey Analytics">Customer Journey Analytics</a>
+                    </p>
+                    <p class="is-size-6">Habilidades do agente para comparação de desempenho, análise de dimensão e criação de espaço de trabalho no Customer Journey Analytics.</p>
+                </div>
+                <a href="https://github.com/adobe/skills/tree/main/plugins/adobe-cja" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Exibir habilidades do agente</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Adobe App Builder">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://github.com/adobe/skills/tree/main/plugins/app-builder" title="Adobe App Builder" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/agent-skills-cxenterprise-card.png" alt="Adobe App Builder"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://github.com/adobe/skills/tree/main/plugins/app-builder" target="_blank" rel="referrer" title="Adobe App Builder">Adobe App Builder</a>
+                    </p>
+                    <p class="is-size-6">Habilidades do agente para andaimes, testes e implantação de aplicativos personalizados com o Adobe App Builder.</p>
+                </div>
+                <a href="https://github.com/adobe/skills/tree/main/plugins/app-builder" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Exibir habilidades do agente</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Creative Cloud">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://github.com/adobe/skills/tree/main/plugins/creative-cloud" title="Creative Cloud" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/agent-skills-creative-cloud.png" alt="Creative Cloud"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://github.com/adobe/skills/tree/main/plugins/creative-cloud" target="_blank" rel="referrer" title="Creative Cloud">Creative Cloud</a>
+                    </p>
+                    <p class="is-size-6">Habilidades do agente para edição de fotos em lote, design a partir de modelos, edição de vídeo e variantes de redes sociais com o Creative Cloud.</p>
+                </div>
+                <a href="https://github.com/adobe/skills/tree/main/plugins/creative-cloud" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Exibir habilidades do agente</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
 
 Para obter detalhes completos sobre as habilidades, métodos de instalação e código-fonte, consulte o [repositório do GitHub de Habilidades do Adobe](https://github.com/adobe/skills).
 
