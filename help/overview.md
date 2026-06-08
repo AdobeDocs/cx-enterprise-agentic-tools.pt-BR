@@ -14,7 +14,7 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-05-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491248/?captions=por_br&learn=on&enablevpops)
 
 Forneça uma linha direta para dados, fluxos de trabalho e automação do **Adobe CX Enterprise**. Consulte campanhas, ative públicos e gerencie jornadas em **linguagem simples**, a partir de qualquer ferramenta de desenvolvimento ou cliente de IA compatível.
 
