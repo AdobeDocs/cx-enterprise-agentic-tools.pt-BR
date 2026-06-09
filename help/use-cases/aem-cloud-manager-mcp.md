@@ -3,7 +3,7 @@ title: Implante no AEM as a Cloud Service com confiança
 description: Verifique a integridade do ambiente, revise o histórico do pipeline e acione ou gerencie implantações sem sair do cliente de IA.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 2%
@@ -21,10 +21,10 @@ O gerenciamento de ambientes do Adobe Experience Manager geralmente significa fa
 
 | Detalhes do cenário | |
 | --- | --- |
-| **Aplicativos da CX Enterprise** | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
-| **Ferramentas de agente** | [AEM Cloud Manager MCP Server](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
-| **Público-alvo** | Desenvolvedores, DevOps, equipes de operações |
-| **Pré-requisito** | Cliente de IA compatível com MCP, acesso ao AEM Cloud Manager |
+| Aplicativos corporativos CX | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
+| Ferramentas de agilidade | [AEM Cloud Manager MCP Server](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
+| Público-alvo | Desenvolvedores, DevOps, equipes de operações |
+| Pré-requisito | Cliente de IA compatível com MCP, acesso ao AEM Cloud Manager |
 
 Cada etapa mostra um prompt representativo e um exemplo de resposta de IA. Segue-se um **Mais prompts para tentar a seção** para exploração adicional na mesma sessão.
 
