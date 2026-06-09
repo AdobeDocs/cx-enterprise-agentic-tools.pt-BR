@@ -3,9 +3,9 @@ user-guide-title: Ferramentas Corporativas do Adobe CX
 breadcrumb-title: Ferramentas de agente
 user-guide-description: Conecte agentes de IA e ferramentas de desenvolvimento aos recursos do Adobe CX Enterprise usando servidores MCP, habilidades do agente e APIs.
 index: false
-source-git-commit: 3c29bfeeef3d2cb523724db02448aaa77cdf8900
+source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '90'
 ht-degree: 5%
 
 ---
@@ -28,5 +28,4 @@ ht-degree: 5%
    + [Identifique problemas de jornada antes que afetem os clientes](/help/use-cases/manage-ajo-journeys.md)
    + [Mantenha o conteúdo atualizado e envie atualizações com mais rapidez](/help/use-cases/manage-aem-content.md)
    + [Otimizar o conteúdo com base nos dados de desempenho](/help/use-cases/optimize-content-with-performance-data.md)
-   + [Executar uma revisão de campanha entre canais](/help/use-cases/cross-channel-campaign-review.md)
    + [Implante no AEM as a Cloud Service com confiança](/help/use-cases/aem-cloud-manager-mcp.md)

@@ -3,9 +3,9 @@ title: Ferramentas Corporativas do Adobe CX
 description: Conecte agentes de IA e ferramentas de desenvolvimento aos recursos do Adobe CX Enterprise usando servidores MCP, habilidades do agente e APIs.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '585'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491248/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
 Deixe que a IA se torne seu colega de trabalho do Adobe CX Enterprise. Conecte seu cliente de IA a campanhas, públicos, jornadas e conteúdo e interaja com eles em linguagem simples a partir de qualquer ferramenta que você já usa. Nenhuma interface nova, nenhuma alternância de contexto, nenhum código necessário para começar.
 
@@ -160,11 +160,6 @@ Veja como as ferramentas do Adobe CX Enterprise são na prática. Cada apresenta
 <!--
 CARDS
 
-* use-cases/cross-channel-campaign-review.md
-  {title = Run a cross-channel campaign review}
-  {description = Review AJO journey status, Real-Time CDP audience activation, and CJA performance data in one AI session. Uses CX Enterprise MCP.}
-  {cta = Start walkthrough}
-
 * use-cases/analyze-campaign-performance.md
   {title = Analyze campaign performance}
   {description = Surface Customer Journey Analytics comparisons and conversion trends through plain-language questions. Uses CX Enterprise MCP.}
@@ -178,29 +173,6 @@ CARDS
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Run a cross-channel campaign review">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="use-cases/cross-channel-campaign-review.md" title="Executar uma revisão de campanha entre canais" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review" alt="Executar uma revisão de campanha entre canais"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" title="Executar uma revisão de campanha entre canais">Executar uma análise de campanha entre canais</a>
-                    </p>
-                    <p class="is-size-6">Revise o status da jornada do AJO, a ativação de público-alvo do Real-Time CDP e os dados de desempenho do CJA em uma sessão de IA. Usa o CX Enterprise MCP.</p>
-                </div>
-                <a href="use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Iniciar apresentação</span>
-                </a>
-            </div>
-        </div>
-    </div>
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Analyze campaign performance">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
@@ -261,4 +233,4 @@ CARDS
 | [Catálogo de APIs do Adobe](https://developer.adobe.com/apis) | Referência completa da API corporativa do Adobe CX |
 | [Console do desenvolvedor da Adobe](https://developer.adobe.com/developer-console/docs/guides/) | Configuração e autenticação do projeto da API |
 | [Adobe Admin Console](https://adminconsole.adobe.com) | Gerenciamento de acesso a usuários e produtos |
-| [Experience League](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/home) | Documentação e tutoriais completos do aplicativo Adobe |
+| [Experience League](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home) | Documentação e tutoriais completos do aplicativo Adobe |
