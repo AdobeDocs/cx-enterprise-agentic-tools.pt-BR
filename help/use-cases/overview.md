@@ -3,7 +3,7 @@ title: Ferramentas de agente em ação
 description: Apresentação passo a passo mostrando as ferramentas do agente corporativo do Adobe CX aplicadas aos fluxos de trabalho de negócios reais.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -56,7 +56,7 @@ CARDS
   {title = Manage AEM environments with Cloud Manager}
   {description = Check environment health, review pipeline runs, and manage deployments from your AI client. Uses the AEM Cloud Manager MCP Server.}
   {cta = Start walkthrough}
-  {image = https://video.tv.adobe.com/v/3480347?captions=por_br&format=jpeg}
+  {image = ../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -65,7 +65,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="analyze-campaign-performance.md" title="Analisar o desempenho da campanha" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Analyze+Campaign+Performance" alt="Analisar o desempenho da campanha"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="Analisar o desempenho da campanha"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -88,7 +88,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="query-audiences.md" title="Consultar públicos" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Query+Audiences" alt="Consultar públicos"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png" alt="Consultar públicos"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -111,7 +111,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="manage-ajo-journeys.md" title="Revisar jornadas do AJO" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Review+AJO+Journeys" alt="Revisar jornadas do AJO"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png" alt="Revisar jornadas do AJO"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -134,7 +134,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="manage-aem-content.md" title="Gerenciar conteúdo do AEM com IA" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Manage+AEM+Content+with+AI" alt="Gerenciar conteúdo do AEM com IA"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="Gerenciar conteúdo do AEM com IA"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -157,7 +157,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="optimize-content-with-performance-data.md" title="Otimizar o conteúdo com base nos dados de desempenho" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Optimize+Content+Based+on+Performance+Data" alt="Otimizar o conteúdo com base nos dados de desempenho"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png" alt="Otimizar o conteúdo com base nos dados de desempenho"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -203,7 +203,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="aem-cloud-manager-mcp.md" title="Gerenciar ambientes do AEM com o Cloud Manager" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3480347?captions=por_br&format=jpeg" alt="Gerenciar ambientes do AEM com o Cloud Manager"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png" alt="Gerenciar ambientes do AEM com o Cloud Manager"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>

@@ -3,9 +3,9 @@ title: Entenda seus públicos-alvo e onde eles são ativados
 description: Use o gateway do CX Enterprise MCP para monitorar o status de ativação do público-alvo, verificar a integridade do destino e exibir problemas antes que eles afetem suas campanhas.
 last-substantial-update: 2026-06-04T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '898'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-04 -->
 
-![Consultar públicos-alvo com linguagem natural](https://placehold.co/1600x900?text=Query+Audiences)
+![Cliente de IA que fornece uma estratégia de público-alvo priorizada com recomendações de ativação](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
 
 Entender quais públicos-alvo são ativados, onde estão fluindo e se os destinos estão íntegros geralmente significa abrir o Real-Time CDP e navegar por várias telas. Esta apresentação mostra como obter as mesmas respostas por meio de um cliente de IA, usando o servidor MCP do RTCDP para exibir a configuração de destino, o status de ativação e a integridade do fluxo de dados por meio de perguntas em linguagem simples.
 
