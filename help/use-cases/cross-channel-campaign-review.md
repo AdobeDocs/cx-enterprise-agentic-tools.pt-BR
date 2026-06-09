@@ -1,8 +1,9 @@
 ---
 title: Executar uma revisão de campanha entre canais
 description: Use o gateway do CX Enterprise MCP em uma única sessão de IA para obter uma visualização unificada da integridade de campanha do AJO, CJA e Real-Time CDP em jornadas, públicos e desempenho.
+last-substantial-update: 2026-05-21T00:00:00Z
 index: false
-source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 4%
@@ -292,7 +293,7 @@ Which channel has the highest conversion rate across all active campaigns?
 | --- | --- |
 | [Documentação do AJO](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home) | Documentação completa do aplicativo do AJO |
 | [Documentação de MCP do Analytics](https://developer.adobe.com/analytics-mcp/docs/) | Referência da ferramenta e configuração do CJA MCP |
-| [Documentação do Real-Time CDP MCP](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guia de configuração do RTCDP MCP |
+| [Documentação do Real-Time CDP MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guia de configuração do RTCDP MCP |
 | [Servidor MCP do AJO no Registro de IA](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | Disponibilidade e ferramentas do AJO MCP Server |
 | [Servidor MCP do CJA no Registro de IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | Disponibilidade e ferramentas do CJA MCP Server |
 | [Servidores MCP](../tools/mcp-servers.md) | Conectar um cliente de IA a servidores MCP do Adobe |

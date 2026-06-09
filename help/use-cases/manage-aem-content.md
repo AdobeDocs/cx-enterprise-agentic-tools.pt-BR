@@ -1,8 +1,9 @@
 ---
 title: Mantenha o conteúdo atualizado e envie atualizações com mais rapidez
 description: Use o AEM Content MCP Server para localizar, revisar, atualizar e publicar conteúdo do AEM sem alternar entre as ferramentas.
+last-substantial-update: 2026-05-22T00:00:00Z
 index: false
-source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 1%
@@ -263,8 +264,8 @@ Promote the May Updates launch to production.
 
 | Recurso | O que você encontrará |
 | --- | --- |
-| [Documentação do AEM Content MCP Server](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guia de configuração e uso do servidor MCP |
+| [Documentação do AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guia de configuração e uso do servidor MCP |
 | [Servidor MCP de Conteúdo do AEM no Registro de IA](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | Lista de ferramentas e disponibilidade |
-| [Documentação do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service) | Documentação completa do aplicativo do AEM |
-| [Fragmentos de conteúdo do AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | Referência de criação do fragmento de conteúdo |
+| [Documentação do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | Documentação completa do aplicativo do AEM |
+| [Fragmentos de conteúdo do AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | Referência de criação do fragmento de conteúdo |
 | [Servidores MCP](../tools/mcp-servers.md) | Conectar um cliente de IA a servidores MCP do Adobe |

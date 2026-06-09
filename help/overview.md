@@ -1,8 +1,9 @@
 ---
 title: Ferramentas Corporativas do Adobe CX
 description: Conecte agentes de IA e ferramentas de desenvolvimento aos recursos do Adobe CX Enterprise usando servidores MCP, habilidades do agente e APIs.
+last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: b9ed1988d395169decd601cae567d200f8993f04
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 1%
@@ -14,7 +15,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491248/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
 Deixe que a IA se torne seu colega de trabalho do Adobe CX Enterprise. Conecte seu cliente de IA a campanhas, públicos, jornadas e conteúdo e interaja com eles em linguagem simples a partir de qualquer ferramenta que você já usa. Nenhuma interface nova, nenhuma alternância de contexto, nenhum código necessário para começar.
 
@@ -260,4 +261,4 @@ CARDS
 | [Catálogo de APIs do Adobe](https://developer.adobe.com/apis) | Referência completa da API corporativa do Adobe CX |
 | [Console do desenvolvedor da Adobe](https://developer.adobe.com/developer-console/docs/guides/) | Configuração e autenticação do projeto da API |
 | [Adobe Admin Console](https://adminconsole.adobe.com) | Gerenciamento de acesso a usuários e produtos |
-| [Experience League](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/home) | Documentação e tutoriais completos do aplicativo Adobe |
+| [Experience League](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home) | Documentação e tutoriais completos do aplicativo Adobe |
