@@ -3,10 +3,10 @@ title: Entenda seus públicos-alvo e onde eles são ativados
 description: Use o CX Enterprise MCP para monitorar o status de ativação do público-alvo, verificar a integridade do destino e exibir problemas antes que eles afetem suas campanhas.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
+source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 3%
+source-wordcount: '862'
+ht-degree: 2%
 
 ---
 
@@ -230,7 +230,5 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | Recurso | O que você encontrará |
 | --- | --- |
-| [Documentação do Real-Time CDP MCP](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Referência da ferramenta e configuração do servidor MCP |
-| [Registro do Adobe AI](https://developer.adobe.com/ai-registry/?type=mcp) | Metadados e disponibilidade do servidor MCP |
-| [Documentação do Real-Time CDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home) | Documentação completa do aplicativo do Real-Time CDP |
-| [Documentação de destinos do AEP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/home) | Referência completa de destinos |
+| [Registro do Adobe AI](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | Metadados e disponibilidade do servidor MCP |
+| [Documentação do Real-Time CDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home){target="_blank"} | Documentação completa do aplicativo do Real-Time CDP |

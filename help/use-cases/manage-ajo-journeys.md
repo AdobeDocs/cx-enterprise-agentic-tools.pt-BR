@@ -3,10 +3,10 @@ title: Identifique problemas de jornada antes que afetem os clientes
 description: Use o CX Enterprise MCP para monitorar jornadas ativas do AJO, revisar a configuração da campanha e exibir problemas operacionais antes que eles atinjam seu público-alvo.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
+source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 3%
+source-wordcount: '984'
+ht-degree: 2%
 
 ---
 
@@ -253,7 +253,5 @@ What channel configurations are set up in our AJO environment?
 
 | Recurso | O que você encontrará |
 | --- | --- |
-| [Servidor MCP do AJO no Registro de IA](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | Disponibilidade e ferramentas do AJO MCP Server |
-| [Documentação do AJO](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home) | Documentação completa do aplicativo do AJO |
-| [APIs do AJO](https://developer.adobe.com/journey-optimizer-apis/) | Referência da API do AJO para integrações personalizadas |
-| [Tutoriais do AJO](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/overview) | Tutoriais em vídeo e caminhos do aprendizado |
+| [Servidor MCP do AJO no Registro de IA](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server){target="_blank"} | Disponibilidade e ferramentas do AJO MCP Server |
+| [Documentação do AJO](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} | Documentação completa do aplicativo do AJO |
