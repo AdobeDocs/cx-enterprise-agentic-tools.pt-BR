@@ -3,9 +3,9 @@ title: Habilidades do agente
 description: Fluxos de trabalho e instruções com curadoria da Adobe que orientam os agentes de IA por meio de tarefas do CX Enterprise de forma consistente.
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 1681b6de9d0459ed9d5420f77048778712cd0004
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 6%
 
 ---
@@ -24,8 +24,6 @@ Todas as Habilidades do Agente são mantidas no [repositório GitHub de Habilida
 ## Habilidades dos agentes corporativos do Adobe CX
 
 Todas as Habilidades do Agente são mantidas no [repositório GitHub de Habilidades do Adobe](https://github.com/adobe/skills). Selecione uma área de recurso abaixo para explorar habilidades para esse fluxo de trabalho.
-
-### Aplicativos Adobe
 
 <!--
 CARDS
