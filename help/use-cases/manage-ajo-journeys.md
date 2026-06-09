@@ -3,9 +3,9 @@ title: Identifique problemas de jornada antes que afetem os clientes
 description: Use o gateway do CX Enterprise MCP para monitorar jornadas ativas do AJO, revisar a configuração da campanha e exibir problemas operacionais antes que eles atinjam seu público-alvo.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1009'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 # Identifique problemas de jornada antes que afetem os clientes
 <!-- last-modified: 2026-06-08 -->
 
-![Analisar Jornadas do AJO](https://placehold.co/1600x900?text=Review+AJO+Journeys)
+![Cliente de IA que resume a campanha e a estratégia de jornada com um resumo executivo](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
 
 Obter uma visão clara de quais jornadas estão ativas, quais condições as impulsionam e como as campanhas são configuradas normalmente significa abrir o Adobe Journey Optimizer e navegar em sua interface. Esta apresentação mostra como obter a mesma visibilidade por meio de um cliente de IA, usando o gateway do CX Enterprise MCP para consultar dados de jornada e campanha do AJO por meio de perguntas em linguagem simples.
 
