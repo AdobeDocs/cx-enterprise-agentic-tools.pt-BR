@@ -1,12 +1,12 @@
 ---
 title: Mantenha o conteúdo atualizado e envie atualizações com mais rapidez
 description: Use o AEM Content MCP Server para localizar, revisar, atualizar e publicar conteúdo do AEM sem alternar entre as ferramentas.
-last-substantial-update: 2026-05-22T00:00:00Z
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 1%
+source-wordcount: '1053'
+ht-degree: 2%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 1%
 
 As operações de conteúdo no Adobe Experience Manager, desde encontrar páginas e revisar conteúdo até fazer atualizações e publicar, normalmente exigem navegar diretamente pela interface do AEM. Esta apresentação mostra como lidar com essas operações por meio de um cliente de IA usando o servidor MCP de conteúdo do AEM, para que as equipes de conteúdo possam mover-se mais rapidamente sem alternar o contexto entre as ferramentas.
 
-| | |
+| Detalhes do cenário | |
 | --- | --- |
-| Aplicativos corporativos CX | Adobe Experience Manager as a Cloud Service |
-| Ferramentas de agilidade | Servidor MCP de conteúdo do AEM |
-| Público-alvo | Gerentes de conteúdo, equipes de marketing |
-| Pré-requisito | Cliente de IA compatível com MCP, acesso ao AEM as a Cloud Service |
+| **Aplicativos da CX Enterprise** | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/overview/introduction?lang=pt-BR) |
+| **Ferramentas de agente** | [Servidor MCP de Conteúdo do AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| **Público-alvo** | Gerentes de conteúdo, equipes de marketing |
+| **Pré-requisito** | Cliente de IA compatível com MCP, acesso ao AEM as a Cloud Service |
 
 Cada etapa mostra um prompt representativo e um exemplo de resposta de IA. Segue-se uma seção **Mais que você pode realizar** para exploração adicional na mesma sessão.
 
@@ -73,7 +73,7 @@ Instruções completas de instalação para todos os clientes com suporte: [Cone
 >
 >Na primeira conexão, o cliente de IA pode solicitar que você confirme a organização ou o ambiente do AEM. Depois que o contexto é definido, o servidor MCP o utiliza para o restante da sessão.
 >
->Algumas ferramentas solicitam sua aprovação antes de serem executadas. Revise a ação proposta e aprove ou recuse — nenhuma alteração será feita sem a sua confirmação.
+>Algumas ferramentas solicitam sua aprovação antes de serem executadas. Revise a ação proposta e aprove ou recuse. Nenhuma alteração será feita sem a sua confirmação.
 
 ## Etapa 1: encontrar conteúdo no ambiente do AEM
 
@@ -264,8 +264,8 @@ Promote the May Updates launch to production.
 
 | Recurso | O que você encontrará |
 | --- | --- |
-| [Documentação do AEM Content MCP Server](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guia de configuração e uso do servidor MCP |
+| [Documentação do AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guia de configuração e uso do servidor MCP |
 | [Servidor MCP de Conteúdo do AEM no Registro de IA](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | Lista de ferramentas e disponibilidade |
-| [Documentação do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service) | Documentação completa do aplicativo do AEM |
-| [Fragmentos de conteúdo do AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | Referência de criação do fragmento de conteúdo |
+| [Documentação do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | Documentação completa do aplicativo do AEM |
+| [Fragmentos de conteúdo do AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | Referência de criação do fragmento de conteúdo |
 | [Servidores MCP](../tools/mcp-servers.md) | Conectar um cliente de IA a servidores MCP do Adobe |

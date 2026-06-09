@@ -3,9 +3,9 @@ title: Ferramentas de agente em ação
 description: Apresentação passo a passo mostrando as ferramentas do agente corporativo do Adobe CX aplicadas aos fluxos de trabalho de negócios reais.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -195,35 +195,3 @@ CARDS
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-## Perguntas comuns
-
-+++Como consultar dados do Adobe em um cliente de IA?
-
-Use um servidor MCP. Conecte seu cliente de IA ao endpoint relevante do servidor MCP do Adobe e faça perguntas em linguagem natural. O servidor traduz sua solicitação em chamadas de API do Adobe e retorna resultados estruturados.
-
-Consulte [Servidores MCP](../tools/mcp-servers.md) para começar.
-
-+++
-
-+++Como criar um fluxo de trabalho conectando vários aplicativos da Adobe?
-
-Conecte-se a vários servidores MCP em uma única sessão de IA ou use APIs do Adobe para orquestração personalizada de vários aplicativos.
-
-Consulte [APIs para Construtores](../tools/apis.md) e [Servidores MCP](../tools/mcp-servers.md).
-
-+++
-
-+++Como faço um agente seguir as práticas recomendadas da Adobe?
-
-Use as habilidades do agente. As habilidades codificam a experiência no domínio do Adobe para que os agentes concluam as tarefas de forma consistente.
-
-Consulte [Habilidades do agente](../tools/agent-skills.md).
-
-+++
-
-+++Quais clientes de IA funcionam com os servidores MCP da Adobe?
-
-Qualquer cliente compatível com MCP. Claude Code, Claude.ai, Cursor, ChatGPT e Google Gemini têm suporte para MCP. Consulte [Servidores MCP](../tools/mcp-servers.md) para obter uma comparação completa de clientes e links de instalação.
-
-+++
