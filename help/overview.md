@@ -3,9 +3,9 @@ title: Ferramentas Corporativas do Adobe CX
 description: Conecte agentes de IA e ferramentas de desenvolvimento aos recursos do Adobe CX Enterprise usando servidores MCP, habilidades do agente e APIs.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -17,10 +17,10 @@ ht-degree: 1%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491248/?captions=por_br&learn=on&enablevpops)
 
-Deixe que a IA se torne seu colega de trabalho do Adobe CX Enterprise. Conecte seu cliente de IA a campanhas, públicos, jornadas e conteúdo e interaja com eles em linguagem simples a partir de qualquer ferramenta que você já usa. Nenhuma interface nova, nenhuma alternância de contexto, nenhum código necessário para começar.
+Deixe que a IA se torne seu colega de trabalho do Adobe CX Enterprise. Conecte seu cliente de IA a campanhas, públicos, jornadas e conteúdo. Interaja com eles em linguagem simples a partir de qualquer ferramenta que você já usa. Nenhuma interface nova, nenhuma alternância de contexto, nenhum código necessário para começar.
 
 >[!TIP]
->**Iniciar com CX Enterprise MCP.** Uma conexão fornece ao cliente de IA acesso à Adobe Journey Optimizer, Customer Journey Analytics e Real-Time CDP com base nas licenças da organização. [Conectar agora](tools/mcp-servers.md#cx-enterprise-mcp)
+>**Iniciar com CX Enterprise MCP.** Uma conexão fornece ao cliente de IA acesso à Adobe Journey Optimizer, Customer Journey Analytics e Real-Time CDP com base nas licenças da organização. [Conectar agora](tools/mcp-servers.md#cx-enterprise-mcp-servers)
 
 <!--
 CARDS
@@ -123,7 +123,7 @@ CARDS
 
 >[!TAB Servidores MCP]
 
-Use qualquer cliente de IA compatível para acessar os aplicativos do CX Enterprise em linguagem simples — sem necessidade de codificação. Comece com o CX Enterprise MCP para uma única conexão com o AJO, o CJA e o Real-Time CDP ou conecte-se diretamente ao AEM e a outros aplicativos.
+Use qualquer cliente de IA compatível para acessar os aplicativos do CX Enterprise em linguagem simples. Nenhum código necessário. Comece com o CX Enterprise MCP para uma única conexão com o AJO, o CJA e o Real-Time CDP ou conecte-se diretamente ao AEM e a outros aplicativos.
 
 - Conectar-se em minutos de Claude, Cursor, ChatGPT e outros clientes compatíveis com MCP
 - Consultar campanhas, públicos e dados de jornada usando linguagem natural
@@ -133,10 +133,10 @@ Use qualquer cliente de IA compatível para acessar os aplicativos do CX Enterpr
 
 >[!TAB Habilidades do agente]
 
-As Habilidades do agente codificam a experiência no domínio do Adobe como instruções que o cliente de IA pode seguir. Em vez de improvisar, o agente sabe exatamente o que fazer — de modo confiável, repetitivo e alinhado às práticas recomendadas da Adobe.
+As Habilidades do agente codificam a experiência no domínio do Adobe como instruções que o cliente de IA pode seguir. Em vez de improvisar, o agente sabe exatamente o que fazer, de modo confiável, repetitivo e alinhado às práticas recomendadas da Adobe.
 
 - Resultados consistentes para fluxos de trabalho replicáveis do CX Enterprise
-- Não há necessidade de explicar o Adobe ao agente - a habilidade lida com ele
+- Não é necessário explicar o Adobe ao agente: a habilidade lida com ele
 - Funciona com clientes de IA que oferecem suporte às habilidades do agente
 
 [Explorar habilidades do agente](tools/agent-skills.md)

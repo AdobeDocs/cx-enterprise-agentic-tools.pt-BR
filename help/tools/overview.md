@@ -3,9 +3,9 @@ title: Ferramentas de agente
 description: Compare servidores MCP, habilidades do agente e APIs para construtores e escolha a ferramenta de agente certa para seus fluxos de trabalho do Adobe CX Enterprise.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <!-- last-modified: 2026-06-08 -->
 
-Nem todas as ferramentas de agilidade atendem à mesma necessidade. Explore o que cada um faz, quando usá-lo e como começar a usá-lo para que você possa escolher o ponto de partida certo para a sua situação.
+Nem todas as ferramentas de agilidade atendem à mesma necessidade. Explore o que cada um faz, quando usá-lo e como começar para que você possa escolher o ponto de partida certo para a sua situação.
 
 <!--
 CARDS
@@ -146,7 +146,7 @@ Pense nos servidores MCP como um cabo ativo entre seu cliente de IA e os aplicat
 
 >[!TAB Habilidades do agente]
 
-As Habilidades do agente são a experiência de domínio da Adobe, codificadas como instruções que seu agente pode seguir. Em vez de esperar que seu agente descubra as etapas certas, uma habilidade informa exatamente o que fazer — de modo confiável, repetitivo e já ajustado para os fluxos de trabalho do CX Enterprise.
+As Habilidades do agente são a experiência de domínio da Adobe, codificadas como instruções que seu agente pode seguir. Em vez de esperar que seu agente descubra as etapas certas, uma habilidade informa exatamente o que fazer, de modo confiável, repetitivo e já ajustado para os fluxos de trabalho do CX Enterprise.
 
 **Usar Habilidades do Agente quando:**
 
@@ -173,4 +173,4 @@ As APIs são os blocos fundamentais. Eles fornecem aos desenvolvedores acesso di
 
 ## Usá-los juntos
 
-Essas ferramentas foram projetadas para funcionar em conjunto — e combiná-las é onde você obtém o máximo do Adobe AI. Habilidades do agente podem orientar como um cliente de IA usa servidores MCP, mantendo os agentes no caminho certo para os workflows do CX Enterprise. As habilidades também podem informar como e quando chamar APIs, adicionando medidas de proteção de práticas recomendadas do Adobe a automações personalizadas. Você não precisa escolher apenas um.
+Essas ferramentas foram projetadas para funcionar em conjunto. É onde você obtém o máximo do Adobe AI que você pode combiná-los. Habilidades do agente podem orientar como um cliente de IA usa servidores MCP, mantendo os agentes no caminho certo para os workflows do CX Enterprise. As habilidades também podem informar como e quando chamar APIs, adicionando medidas de proteção de práticas recomendadas do Adobe a automações personalizadas. Você não precisa escolher apenas um.
