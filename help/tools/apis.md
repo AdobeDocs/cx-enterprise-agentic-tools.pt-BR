@@ -3,9 +3,9 @@ title: APIs para construtores
 description: Crie aplicativos e integrações personalizados usando as APIs corporativas do Adobe CX.
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 9a3b90f5f1238e780a0f40b082623cd8da0e71a5
+source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '747'
 ht-degree: 11%
 
 ---
@@ -103,11 +103,11 @@ Gerenciamento de usuários, administração de identidades e automação de cont
 
 >[!ENDTABS]
 
-## Introdução às APIs para construtores
+## Criar com APIs
 
 ![Um IDE se conectando às APIs do Adobe CX Enterprise](../assets/hero-connect-apis.gif)
 
-As APIs corporativas do Adobe CX exigem duas coisas antes de você poder criar: credenciais autenticadas da Adobe Developer Console e documentação de API adicionada ao seu projeto para que seu agente de codificação possa trabalhar com as APIs da Adobe de forma confiável.
+Agentes de codificação como Claude Code, Cursor e OpenAI Codex são adequados para criação com APIs corporativas do Adobe CX — adicione uma especificação OpenAPI ao seu projeto e o agente pode descobrir endpoints, criar solicitações e explicar o comportamento da API sem fiação manual. Para iniciar, você precisa de duas coisas: credenciais autenticadas do Adobe Developer Console e documentação da API adicionada ao seu projeto.
 
 ### Configurar credenciais de API no Adobe Developer Console
 
@@ -192,15 +192,3 @@ project/
 **Mantendo as especificações atualizadas**
 
 Quando o Adobe publicar uma nova versão da API: baixe um instantâneo novo no `/specs`, atualize a data em `README.md`, gere novamente o índice e `AGENTS.md`.
-
-## APIs para construtores vs. servidores MCP
-
-Use APIs quando precisar de controle total sobre a integração do sistema ou quando estiver criando um aplicativo personalizado. Use servidores MCP quando quiser que um agente de IA trabalhe diretamente com workflows do Adobe.
-
-| | APIs | Servidores MCP |
-| --- | --- | --- |
-| Integração direta do sistema | Sim | Às vezes |
-| Orquestração amigável ao agente | Limitado | Sim |
-| Acesso a dados brutos | Sim | Geralmente abstraído |
-| Desenvolvimento de aplicativos personalizados | Caso de uso principal | Secundário |
-| Fluxos de trabalho assistidos por IA | Suportado | Caso de uso principal |
