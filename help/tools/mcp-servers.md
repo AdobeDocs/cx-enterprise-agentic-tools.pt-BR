@@ -3,7 +3,7 @@ title: Servidores MCP
 description: Conecte qualquer cliente de IA compatível com MCP aos workflows corporativos do Adobe CX usando os servidores do Protocolo de contexto de modelo.
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 0fb630143968f07246f2a693cec5c8c3432f64f2
+source-git-commit: e37222abaf2d2502dfbc2f8588ae9ece94fffbd1
 workflow-type: tm+mt
 source-wordcount: '2078'
 ht-degree: 3%
@@ -128,7 +128,7 @@ As etapas abaixo usam o endpoint do CX Enterprise MCP como exemplo. O mesmo proc
 
 >[!TAB Claude.ai]
 
-### ![Recomendado](../assets/icons/star.svg) Usar um conector gerenciado
+### <img src="../assets/icons/star.svg" width="24" height="24" alt="Recomendado"> Usar um conector gerenciado
 
 Vá para o [Registro do Adobe AI](https://developer.adobe.com/ai-registry/?type=connector) e pesquise seu aplicativo do Adobe. Se um conector Claude estiver listado (por exemplo, o [conector Adobe Experience Manager](https://developer.adobe.com/ai-registry/#/connectors/adobe-experience-manager-connector)), siga as instruções de configuração em vez das etapas abaixo.
 
@@ -198,7 +198,7 @@ Configuração completa: [Documentação de MCP do cursor](https://cursor.com/do
 
 >[!TAB GPTchat]
 
-### ![Recomendado](../assets/badge-recommended.svg) Usar um conector gerenciado
+### <img src="../assets/icons/star.svg" width="24" height="24" alt="Recomendado"> Usar um conector gerenciado
 
 Vá para o [Registro do Adobe AI](https://developer.adobe.com/ai-registry/?type=connector) e pesquise seu aplicativo do Adobe. Se um conector de ChatGPT estiver listado, siga as instruções de configuração em vez das etapas abaixo.
 
