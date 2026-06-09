@@ -3,10 +3,10 @@ title: Habilidades do agente
 description: Fluxos de trabalho e instruções com curadoria da Adobe que orientam os agentes de IA por meio de tarefas do CX Enterprise de forma consistente.
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: 1681b6de9d0459ed9d5420f77048778712cd0004
+source-git-commit: 1d568bb9c3d948a0470c0f5d110ebb8fa696a53c
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 6%
+source-wordcount: '635'
+ht-degree: 7%
 
 ---
 
@@ -19,11 +19,9 @@ ht-degree: 6%
 
 Habilidades do agente são fluxos de trabalho com curadoria da Adobe que fornecem instruções passo a passo dos agentes de IA para a conclusão confiável das tarefas corporativas do Adobe CX. Cada habilidade do agente codifica a experiência no domínio e as práticas recomendadas para que os agentes produzam resultados consistentes e validados sem precisar improvisar. Habilidades de agente fazem sentido quando você deseja comportamento repetível e guiado em conversas, especialmente para tarefas que de outra forma exigiriam prompts detalhados a cada vez. Eles complementam os servidores MCP e as APIs: as habilidades do agente definem como um agente funciona; os servidores MCP e as APIs fornecem o acesso subjacente.
 
-Todas as Habilidades do Agente são mantidas no [repositório GitHub de Habilidades da Adobe](https://github.com/adobe/skills), que é a fonte primária para a documentação, instalação e detalhes de implementação das Habilidades do Agente.
-
 ## Habilidades dos agentes corporativos do Adobe CX
 
-Todas as Habilidades do Agente são mantidas no [repositório GitHub de Habilidades do Adobe](https://github.com/adobe/skills). Selecione uma área de recurso abaixo para explorar habilidades para esse fluxo de trabalho.
+Selecione uma área de recurso abaixo para explorar habilidades para esse fluxo de trabalho.
 
 <!--
 CARDS
@@ -183,9 +181,6 @@ CARDS
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-
-Para obter detalhes completos sobre as habilidades, métodos de instalação e código-fonte, consulte o [repositório do GitHub de Habilidades do Adobe](https://github.com/adobe/skills).
 
 ## Como as habilidades do agente funcionam
 
