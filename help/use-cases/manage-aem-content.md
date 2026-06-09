@@ -264,8 +264,8 @@ Promote the May Updates launch to production.
 
 | Recurso | O que você encontrará |
 | --- | --- |
-| [Documentação do AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guia de configuração e uso do servidor MCP |
+| [Documentação do AEM Content MCP Server](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guia de configuração e uso do servidor MCP |
 | [Servidor MCP de Conteúdo do AEM no Registro de IA](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | Lista de ferramentas e disponibilidade |
-| [Documentação do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | Documentação completa do aplicativo do AEM |
-| [Fragmentos de conteúdo do AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | Referência de criação do fragmento de conteúdo |
+| [Documentação do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service) | Documentação completa do aplicativo do AEM |
+| [Fragmentos de conteúdo do AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | Referência de criação do fragmento de conteúdo |
 | [Servidores MCP](../tools/mcp-servers.md) | Conectar um cliente de IA a servidores MCP do Adobe |
