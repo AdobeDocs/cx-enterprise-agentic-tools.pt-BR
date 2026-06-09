@@ -3,7 +3,7 @@ title: Entenda seus públicos-alvo e onde eles são ativados
 description: Use o CX Enterprise MCP para monitorar o status de ativação do público-alvo, verificar a integridade do destino e exibir problemas antes que eles afetem suas campanhas.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 3%
@@ -21,10 +21,10 @@ Entender quais públicos-alvo são ativados, onde estão fluindo e se os destino
 
 | Detalhes do cenário | |
 | --- | --- |
-| **Aplicativos da CX Enterprise** | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home) |
-| **Ferramentas de agente** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **Público-alvo** | Profissionais de marketing, analistas, operadores |
-| **Pré-requisito** | Cliente de IA compatível com MCP, acesso ao Real-Time CDP |
+| Aplicativos corporativos CX | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home) |
+| Ferramentas de agilidade | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| Público-alvo | Profissionais de marketing, analistas, operadores |
+| Pré-requisito | Cliente de IA compatível com MCP, acesso ao Real-Time CDP |
 
 Cada etapa mostra um prompt representativo e um exemplo de resposta de IA. Segue-se uma seção **Mais que você pode realizar** para exploração adicional na mesma sessão.
 
@@ -230,7 +230,7 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | Recurso | O que você encontrará |
 | --- | --- |
-| [Documentação do Real-Time CDP MCP](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Referência da ferramenta e configuração do servidor MCP |
+| [Documentação do Real-Time CDP MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Referência da ferramenta e configuração do servidor MCP |
 | [Registro do Adobe AI](https://developer.adobe.com/ai-registry/?type=mcp) | Metadados e disponibilidade do servidor MCP |
 | [Documentação do Real-Time CDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home) | Documentação completa do aplicativo do Real-Time CDP |
 | [Documentação de destinos do AEP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/home) | Referência completa de destinos |

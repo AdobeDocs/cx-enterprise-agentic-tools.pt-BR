@@ -3,7 +3,7 @@ title: Identifique problemas de jornada antes que afetem os clientes
 description: Use o CX Enterprise MCP para monitorar jornadas ativas do AJO, revisar a configuração da campanha e exibir problemas operacionais antes que eles atinjam seu público-alvo.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 3%
@@ -20,10 +20,10 @@ Obter uma visão clara de quais jornadas estão ativas, quais condições as imp
 
 | Detalhes do cenário | |
 | --- | --- |
-| **Aplicativos da CX Enterprise** | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home) |
-| **Ferramentas de agente** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **Público-alvo** | Gerentes de campanha, profissionais de marketing |
-| **Pré-requisito** | Cliente de IA compatível com MCP, acesso ao AJO |
+| Aplicativos corporativos CX | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home) |
+| Ferramentas de agilidade | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| Público-alvo | Gerentes de campanha, profissionais de marketing |
+| Pré-requisito | Cliente de IA compatível com MCP, acesso ao AJO |
 
 Cada etapa mostra um prompt representativo e um exemplo de resposta de IA. Segue-se uma seção **Mais que você pode realizar** para exploração adicional na mesma sessão.
 

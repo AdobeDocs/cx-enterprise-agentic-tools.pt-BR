@@ -3,7 +3,7 @@ title: Executar uma revisão de campanha entre canais
 description: Use o CX Enterprise MCP em uma única sessão de IA para obter uma visualização unificada da integridade da campanha do AJO, CJA e Real-Time CDP em jornadas, públicos e desempenho.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 5%
@@ -21,10 +21,10 @@ Uma imagem completa da integridade da campanha requer dados de vários sistemas:
 
 | Detalhes do cenário | |
 | --- | --- |
-| **Aplicativos da CX Enterprise** | [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home) |
-| **Ferramentas de agente** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **Público-alvo** | Gerentes de campanha, operações de marketing |
-| **Pré-requisito** | Cliente de IA compatível com MCP, acesso ao AJO, CJA e Real-Time CDP |
+| Aplicativos corporativos CX | [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home) |
+| Ferramentas de agilidade | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| Público-alvo | Gerentes de campanha, operações de marketing |
+| Pré-requisito | Cliente de IA compatível com MCP, acesso ao AJO, CJA e Real-Time CDP |
 
 Cada etapa mostra um prompt representativo e um exemplo de resposta de IA. Segue-se uma seção **Mais que você pode realizar** para exploração adicional na mesma sessão.
 
@@ -293,7 +293,7 @@ Which channel has the highest conversion rate across all active campaigns?
 | --- | --- |
 | [Documentação do AJO](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home) | Documentação completa do aplicativo do AJO |
 | [Documentação de MCP do Analytics](https://developer.adobe.com/analytics-mcp/docs/) | Referência da ferramenta e configuração do CJA MCP |
-| [Documentação do Real-Time CDP MCP](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guia de configuração do RTCDP MCP |
+| [Documentação do Real-Time CDP MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guia de configuração do RTCDP MCP |
 | [Servidor MCP do AJO no Registro de IA](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | Disponibilidade e ferramentas do AJO MCP Server |
 | [Servidor MCP do CJA no Registro de IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | Disponibilidade e ferramentas do CJA MCP Server |
 | [Servidores MCP](../tools/mcp-servers.md) | Conectar um cliente de IA a servidores MCP do Adobe |
