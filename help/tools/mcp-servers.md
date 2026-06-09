@@ -3,7 +3,7 @@ title: Servidores MCP
 description: Conecte qualquer cliente de IA compatível com MCP aos workflows corporativos do Adobe CX usando os servidores do Protocolo de contexto de modelo.
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '2078'
 ht-degree: 3%
@@ -120,7 +120,7 @@ Todos os servidores MCP do Adobe usam OAuth com o Adobe Identity Management Serv
 
 Antes de configurar manualmente, verifique o [Registro do Adobe AI](https://developer.adobe.com/ai-registry/?type=connector) para obter um conector gerenciado para o cliente de IA e o aplicativo Adobe. Os conectores gerenciados manipulam a autenticação automaticamente. Se um conector estiver disponível para seu cliente e aplicativo, use-o em vez das etapas manuais abaixo.
 
-As etapas abaixo usam o endpoint do CX Enterprise MCP como exemplo. O mesmo processo se aplica a qualquer servidor MCP do Adobe — troque o URL do endpoint pelo servidor que você deseja conectar.
+As etapas abaixo usam o endpoint do CX Enterprise MCP como exemplo. O mesmo processo se aplica a qualquer servidor MCP do Adobe: troque o URL do ponto de extremidade pelo servidor que você deseja conectar.
 
 ![Um agente de IA se conectando a um servidor MCP do Adobe](../assets/hero-connect-mcp-servers.gif)
 
@@ -138,7 +138,7 @@ O Claude.ai oferece suporte a servidores MCP remotos por meio dos Conectores per
 
 1. Vá para **Configurações > Integrações**.
 2. Clique em **Adicionar conector personalizado**.
-3. Insira o endpoint do servidor como a URL — por exemplo, `https://cx-enterprise.adobe.io/mcp` para o CX Enterprise MCP — e um nome de exibição de sua escolha.
+3. Insira o endpoint do servidor como a URL (por exemplo, `https://cx-enterprise.adobe.io/mcp` para o CX Enterprise MCP) e um nome para exibição de sua escolha.
 4. Clique em **Conectar** e entre com sua Adobe ID. Selecione a organização IMS correta.
 
 Configuração completa: [documentação dos Conectores personalizados do Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -209,7 +209,7 @@ O ChatGPT dá suporte a servidores MCP remotos por meio do [Modo de Desenvolvedo
 1. Habilite o Modo de Desenvolvedor em **Configurações de ChatGPT**.
 2. Vá para **Configurações > Integrações**.
 3. Clique em **Adicionar conector personalizado** e escolha **Servidor MCP remoto**.
-4. Insira o endpoint do servidor como a URL — por exemplo, `https://cx-enterprise.adobe.io/mcp` para o CX Enterprise MCP — e um nome de exibição de sua escolha.
+4. Insira o endpoint do servidor como a URL (por exemplo, `https://cx-enterprise.adobe.io/mcp` para o CX Enterprise MCP) e um nome para exibição de sua escolha.
 5. Defina a autenticação como **OAuth**.
 6. Clique em **Conectar** e entre com sua Adobe ID. Selecione a organização IMS correta.
 
@@ -243,7 +243,7 @@ O Microsoft Copilot Studio se conecta a servidores MCP remotos usando o Assisten
 1. Abra o agente no Copilot Studio.
 2. Vá para a página **Ferramentas**.
 3. Selecione **Adicionar uma ferramenta > Nova ferramenta > Protocolo de Contexto de Modelo**.
-4. No Assistente de integração de MCP, insira os detalhes do servidor — por exemplo, para o CX Enterprise MCP:
+4. No Assistente de integração do MCP, insira os detalhes do servidor. Por exemplo, para o CX Enterprise MCP:
    - **Nome do servidor:** `Adobe CX Enterprise`
    - **URL do Servidor:** `https://cx-enterprise.adobe.io/mcp`
 5. Defina a autenticação como **OAuth 2.0** e configure com sua autorização do Adobe IMS e URLs de token.

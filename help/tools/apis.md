@@ -3,7 +3,7 @@ title: APIs para construtores
 description: Crie aplicativos e integrações personalizados usando as APIs corporativas do Adobe CX.
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 11%
@@ -107,7 +107,7 @@ Gerenciamento de usuários, administração de identidades e automação de cont
 
 ![Um IDE se conectando às APIs do Adobe CX Enterprise](../assets/hero-connect-apis.gif)
 
-Agentes de codificação como Claude Code, Cursor e OpenAI Codex são adequados para criação com APIs corporativas do Adobe CX — adicione uma especificação OpenAPI ao seu projeto e o agente pode descobrir endpoints, criar solicitações e explicar o comportamento da API sem fiação manual. Para iniciar, você precisa de duas coisas: credenciais autenticadas do Adobe Developer Console e documentação da API adicionada ao seu projeto.
+Agentes de codificação como Claude Code, Cursor e OpenAI Codex são adequados para criação com APIs corporativas do Adobe CX. Adicione uma especificação OpenAPI ao seu projeto e o agente pode descobrir pontos de extremidade, criar solicitações e o motivo do comportamento da API sem fiação manual. Para iniciar, você precisa de duas coisas: credenciais autenticadas do Adobe Developer Console e documentação da API adicionada ao seu projeto.
 
 ### Configurar credenciais de API no Adobe Developer Console
 
