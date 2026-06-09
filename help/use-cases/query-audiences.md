@@ -1,8 +1,9 @@
 ---
 title: Entenda seus públicos-alvo e onde eles são ativados
 description: Use o gateway do CX Enterprise MCP para monitorar o status de ativação do público-alvo, verificar a integridade do destino e exibir problemas antes que eles afetem suas campanhas.
+last-substantial-update: 2026-06-04T00:00:00Z
 index: false
-source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 2%
