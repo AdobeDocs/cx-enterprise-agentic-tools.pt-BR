@@ -3,7 +3,7 @@ title: Habilidades do agente
 description: Fluxos de trabalho e instruções com curadoria da Adobe que orientam os agentes de IA por meio de tarefas do CX Enterprise de forma consistente.
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Habilidades do agente são fluxos de trabalho com curadoria da Adobe que fornecem instruções passo a passo dos agentes de IA para a conclusão confiável das tarefas corporativas do Adobe CX. Cada habilidade do agente codifica a experiência no domínio e as práticas recomendadas para que os agentes produzam resultados consistentes e validados sem precisar improvisar. Habilidades de agente fazem sentido quando você deseja comportamento repetível e guiado em conversas, especialmente para tarefas que de outra forma exigiriam prompts detalhados a cada vez. Eles complementam os servidores MCP e as APIs: as habilidades do agente definem como um agente funciona; os servidores MCP e as APIs fornecem o acesso subjacente.
 
-## Habilidades dos agentes corporativos do Adobe CX
+## Habilidades do agente corporativo Adobe CX
 
 Selecione uma área de recurso abaixo para explorar habilidades para esse fluxo de trabalho.
 
@@ -57,7 +57,7 @@ Habilidades do agente para edição de fotos em lote, design a partir de modelos
 
 >[!ENDTABS]
 
-## Adicionar habilidades de agente
+## Adicionar habilidades do agente
 
 ![Como funcionam as Habilidades dos Agentes](../assets/hero-connect-agent-skills.gif)
 
@@ -73,7 +73,7 @@ Habilidades do agente são instaladas com base no cliente de IA que você está 
 
 Outros clientes exigem que você baixe e adicione os arquivos de habilidade diretamente ao cliente de IA. Consulte o [LEIAME de habilidades do Adobe no GitHub](https://github.com/adobe/skills#installation) para obter instruções completas de instalação do cliente.
 
-### Encontrar habilidades de agentes
+### Encontrar habilidades de agente
 
 Navegue pela lista completa de habilidades disponíveis no [repositório GitHub de Habilidades do Adobe](https://github.com/adobe/skills). Cada habilidade de agente inclui um arquivo `SKILL.md` com orientação detalhada, referências e exemplos.
 
