@@ -3,10 +3,10 @@ title: APIs para construtores
 description: Crie aplicativos e integrações personalizados usando as APIs corporativas do Adobe CX.
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 9318512ab3280356be3f64a17f5320e30a9c4f8d
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 23%
+source-wordcount: '935'
+ht-degree: 24%
 
 ---
 
@@ -20,8 +20,6 @@ ht-degree: 23%
 As APIs corporativas do Adobe CX fornecem aos desenvolvedores e às ferramentas de agente de codificação assistida por IA acesso direto aos dados e fluxos de trabalho do Adobe. Use-os para criar aplicativos personalizados, automatizar integrações e incorporar recursos do Adobe em seus próprios sistemas. As APIs são a escolha certa quando você precisa de controle programático total sobre uma integração de sistema ou quando está criando um aplicativo com base nos dados do Adobe. Para acesso conversacional orientado por agente a fluxos de trabalho do Adobe, consulte [servidores MCP](mcp-servers.md).
 
 ## APIs corporativas do Adobe CX
-
-As APIs do Adobe CX Enterprise expõem os dados e as operações principais que alimentam produtos como Adobe Experience Platform, Journey Optimizer e Customer Journey Analytics. Cada API segue um design de API, fornecendo aos desenvolvedores e ferramentas de agente de codificação assistida por IA acesso direto e programável aos mesmos recursos que o Adobe usa internamente. Use-os para criar aplicativos personalizados, automatizar workflows e integrar dados do Adobe em seus próprios sistemas.
 
 <!--
 CARDS
@@ -68,7 +66,7 @@ CARDS
   {target = _blank}
   {image = ../assets/apis-cxenterprise-card.png}
 
-* https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/home
+* https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home
   {title = Privacy}
   {description = Privacy workflows, data governance, and data subject requests.}
   {cta = Explore API}
@@ -398,19 +396,6 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-
-## APIs para construtores vs. servidores MCP
-
-Use APIs quando precisar de controle total sobre a integração do sistema ou quando estiver criando um aplicativo personalizado. Use servidores MCP quando quiser que um agente de IA trabalhe diretamente com workflows do Adobe.
-
-| | APIs | Servidores MCP |
-| --- | --- | --- |
-| Integração direta do sistema | Sim | Às vezes |
-| Orquestração amigável ao agente | Limitado | Sim |
-| Acesso a dados brutos | Sim | Geralmente abstraído |
-| Desenvolvimento de aplicativos personalizados | Caso de uso principal | Secundário |
-| Fluxos de trabalho assistidos por IA | Suportado | Caso de uso principal |
-
 ## Introdução às APIs para construtores
 
 ![Um IDE se conectando às APIs do Adobe CX Enterprise](../assets/hero-connect-apis.gif)
@@ -500,3 +485,15 @@ project/
 **Mantendo as especificações atualizadas**
 
 Quando o Adobe publicar uma nova versão da API: baixe um instantâneo novo no `/specs`, atualize a data em `README.md`, gere novamente o índice e `AGENTS.md`.
+
+## APIs para construtores vs. servidores MCP
+
+Use APIs quando precisar de controle total sobre a integração do sistema ou quando estiver criando um aplicativo personalizado. Use servidores MCP quando quiser que um agente de IA trabalhe diretamente com workflows do Adobe.
+
+| | APIs | Servidores MCP |
+| --- | --- | --- |
+| Integração direta do sistema | Sim | Às vezes |
+| Orquestração amigável ao agente | Limitado | Sim |
+| Acesso a dados brutos | Sim | Geralmente abstraído |
+| Desenvolvimento de aplicativos personalizados | Caso de uso principal | Secundário |
+| Fluxos de trabalho assistidos por IA | Suportado | Caso de uso principal |
