@@ -233,4 +233,4 @@ CARDS
 | [Catálogo de APIs do Adobe](https://developer.adobe.com/apis) | Referência completa da API corporativa do Adobe CX |
 | [Console do desenvolvedor da Adobe](https://developer.adobe.com/developer-console/docs/guides/) | Configuração e autenticação do projeto da API |
 | [Adobe Admin Console](https://adminconsole.adobe.com) | Gerenciamento de acesso a usuários e produtos |
-| [Experience League](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home) | Documentação e tutoriais completos do aplicativo Adobe |
+| [Experience League](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/home) | Documentação e tutoriais completos do aplicativo Adobe |
