@@ -1,22 +1,22 @@
 ---
-title: Otimizar o conteúdo com base nos dados de desempenho
+title: Preencha as lacunas de desempenho do conteúdo com atualizações orientadas por dados
 description: Use o CJA e o AEM juntos em uma sessão de IA para encontrar campanhas com lacunas de conversão, diagnosticar a causa e atualizar o conteúdo sem alternar entre as ferramentas.
-last-substantial-update: 2026-06-08T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1072'
 ht-degree: 2%
 
 ---
 
 
-# Otimizar o conteúdo com base nos dados de desempenho
-<!-- last-modified: 2026-06-08 -->
+# Preencha as lacunas de desempenho do conteúdo com atualizações orientadas por dados
+<!-- last-modified: 2026-06-10 -->
 
 ![O cliente IA comparando lado a lado o conteúdo original e atualizado da página](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
 
-Fechar o loop entre os dados de desempenho da campanha e as atualizações de conteúdo normalmente significa alternar entre a ferramenta de análise e o CMS. Esta apresentação mostra como conectar o Customer Journey Analytics e o AEM na mesma sessão de IA: supere campanhas com lacunas de conversão, diagnostique o que as está impulsionando, inspecione o conteúdo, obtenha recomendações direcionadas e aplique alterações sem sair da conversa.
+Resultados das campanhas de custo com lacunas de desempenho do conteúdo, e fechá-las geralmente significa alternar entre a ferramenta de análise e o CMS. Esta apresentação mostra como fazer isso em uma única sessão de IA: destacar campanhas com lacunas de conversão no Customer Journey Analytics, diagnosticar a causa, inspecionar o conteúdo com baixo desempenho no AEM e aplicar atualizações sem sair da conversa.
 
 | Detalhes do cenário | |
 | --- | --- |

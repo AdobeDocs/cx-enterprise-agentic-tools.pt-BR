@@ -1,11 +1,11 @@
 ---
 title: Implante no AEM as a Cloud Service com confiança
 description: Verifique a integridade do ambiente, revise o histórico do pipeline e acione ou gerencie implantações sem sair do cliente de IA.
-last-substantial-update: 2026-06-09T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '938'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3480347/?captions=por_br&learn=on&enablevpops)
 
-O gerenciamento de ambientes do Adobe Experience Manager geralmente significa fazer logon no Cloud Manager, navegar por pipelines e ambientes e alternar contextos para rastrear o status da implantação. Esta apresentação mostra como lidar com essas operações de um cliente de IA usando o servidor MCP do AEM Cloud Manager, para que desenvolvedores e equipes de operações possam verificar o status, revisar pipelines e agir nos detalhes de implantação sem sair do ambiente de IA.
+A confiança na implantação vem de saber que seu ambiente está saudável antes de você forçar. Esta apresentação mostra como verificar o status do ambiente do AEM, revisar o histórico do pipeline e acionar implantações de um cliente de IA usando o servidor MCP do AEM Cloud Manager, para que as equipes possam se mover rapidamente sem perder visibilidade.
 
 | Detalhes do cenário | |
 | --- | --- |
