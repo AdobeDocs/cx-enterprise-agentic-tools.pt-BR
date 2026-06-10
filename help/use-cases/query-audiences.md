@@ -3,9 +3,9 @@ title: Entenda seus públicos-alvo e onde eles são ativados
 description: Use o CX Enterprise MCP para monitorar o status de ativação do público-alvo, verificar a integridade do destino e exibir problemas antes que eles afetem suas campanhas.
 last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
+source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '869'
 ht-degree: 2%
 
 ---
@@ -230,5 +230,5 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | Recurso | O que você encontrará |
 | --- | --- |
-| [Registro do Adobe AI](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | Metadados e disponibilidade do servidor MCP |
+| [Registro do Adobe AI](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | Conectores gerenciados e detalhes do servidor para servidores Adobe MCP selecionados |
 | [Documentação do Real-Time CDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home){target="_blank"} | Documentação completa do aplicativo do Real-Time CDP |

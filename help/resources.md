@@ -3,10 +3,10 @@ title: Recursos
 description: Um ponto de entrada único para toda a documentação, registros, APIs e guias do desenvolvedor das Ferramentas Corporativas do Adobe CX.
 last-substantial-update: 2026-05-08T00:00:00Z
 index: false
-source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
+source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 16%
+source-wordcount: '552'
+ht-degree: 17%
 
 ---
 
@@ -23,8 +23,8 @@ Todos os principais recursos da Adobe para trabalhar com as ferramentas do Adobe
 
 | Recurso | O que você encontrará |
 |---|---|
-| [Registro do Adobe AI: Servidores MCP](https://developer.adobe.com/ai-registry/?type=mcp) | Catálogo completo de servidores MCP disponíveis com metadados, endpoints e status |
-| [Registro do Adobe AI: Habilidades do agente](https://developer.adobe.com/ai-registry/?type=skill) | Catálogo completo de Habilidades para agentes disponíveis, com detalhes sobre disponibilidade e configuração |
+| [Registro do Adobe AI: Servidores MCP](https://developer.adobe.com/ai-registry/?type=mcp) | Conectores gerenciados e detalhes do servidor para servidores Adobe MCP selecionados |
+| [Registro do Adobe AI: Habilidades do agente](https://developer.adobe.com/ai-registry/?type=skill) | Lista de habilidades do agente com detalhes de disponibilidade e configuração para as habilidades selecionadas |
 | [Catálogo de APIs do Adobe](https://developer.adobe.com/apis) | Referência completa da API corporativa do Adobe CX |
 
 ## Servidores MCP
@@ -40,7 +40,7 @@ Todos os principais recursos da Adobe para trabalhar com as ferramentas do Adobe
 | Recurso | O que você encontrará |
 |---|---|
 | [Repositório de Habilidades da Adobe](https://github.com/adobe/skills) | Origem canônica para todas as Habilidades do agente, métodos de instalação e detalhes de implementação |
-| [Registro do Adobe AI: Habilidades do agente](https://developer.adobe.com/ai-registry/?type=skill) | Catálogo completo de habilidades disponíveis do agente com metadados e status de disponibilidade |
+| [Registro do Adobe AI: Habilidades do agente](https://developer.adobe.com/ai-registry/?type=skill) | Lista de habilidades do agente com disponibilidade e metadados para habilidades selecionadas |
 
 ## APIs para construtores
 
