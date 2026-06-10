@@ -1,11 +1,11 @@
 ---
 title: Entenda seus públicos-alvo e onde eles são ativados
 description: Use o CX Enterprise MCP para monitorar o status de ativação do público-alvo, verificar a integridade do destino e exibir problemas antes que eles afetem suas campanhas.
-last-substantial-update: 2026-06-09T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '864'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ![Cliente de IA que fornece uma estratégia de público-alvo priorizada com recomendações de ativação](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
 
-Entender quais públicos-alvo são ativados, onde estão fluindo e se os destinos estão íntegros geralmente significa abrir o Real-Time CDP e navegar por várias telas. Esta apresentação mostra como obter as mesmas respostas por meio de um cliente de IA, usando o servidor MCP do RTCDP para exibir a configuração de destino, o status de ativação e a integridade do fluxo de dados por meio de perguntas em linguagem simples.
+Saber quais públicos-alvo estão ativos, onde eles estão fluindo e se os destinos estão íntegros é essencial antes do lançamento de uma campanha ou quando o desempenho é baixo. Esta apresentação mostra como obter uma imagem de ativação completa por meio de um cliente de IA, usando o CX Enterprise MCP para exibir o status do público-alvo e a integridade do destino em segundos, sem abrir o Real-Time CDP.
 
 | Detalhes do cenário | |
 | --- | --- |

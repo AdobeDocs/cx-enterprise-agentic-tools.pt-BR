@@ -3,10 +3,10 @@ user-guide-title: Ferramentas Corporativas do Adobe CX
 breadcrumb-title: Ferramentas de agente
 user-guide-description: Conecte agentes de IA e ferramentas de desenvolvimento aos recursos do Adobe CX Enterprise usando servidores MCP, habilidades do agente e APIs.
 index: false
-source-git-commit: f0ced04b4676cd9f39c3f8797f90ca1fcbc8ce1e
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 7%
+source-wordcount: '74'
+ht-degree: 6%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 7%
    + [APIs para construtores](/help/tools/apis.md)
 + Ferramentas de agente em ação {#in-action}
    + [Visão geral](/help/use-cases/overview.md)
-   + [Analisar o desempenho da campanha](/help/use-cases/analyze-campaign-performance.md)
-   + [Consultar públicos](/help/use-cases/query-audiences.md)
-   + [Revisar jornadas do AJO](/help/use-cases/manage-ajo-journeys.md)
-   + [Gerenciar conteúdo do AEM](/help/use-cases/manage-aem-content.md)
-   + [Otimizar o conteúdo com dados de desempenho](/help/use-cases/optimize-content-with-performance-data.md)
-   + [Implantar no AEM Cloud Service](/help/use-cases/aem-cloud-manager-mcp.md)
+   + [Insights do Campaign sem relatórios](/help/use-cases/analyze-campaign-performance.md)
+   + [Principais características da ativação de público-alvo](/help/use-cases/query-audiences.md)
+   + [Problemas de jornada de capturas antecipadas](/help/use-cases/manage-ajo-journeys.md)
+   + [Enviar atualizações de conteúdo mais rapidamente](/help/use-cases/manage-aem-content.md)
+   + [Fechar as lacunas de desempenho do conteúdo](/help/use-cases/optimize-content-with-performance-data.md)
+   + [Implante as alterações no AEM com confiança](/help/use-cases/aem-cloud-manager-mcp.md)
