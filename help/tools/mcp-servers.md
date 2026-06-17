@@ -2,10 +2,10 @@
 title: Servidores MCP
 description: Conecte qualquer cliente de IA compatível com MCP aos workflows corporativos do Adobe CX usando os servidores do Protocolo de contexto de modelo.
 index: false
-last-substantial-update: 2026-06-15T00:00:00Z
-source-git-commit: 6140354d31e3c42d148be153227306d92c9f5f89
+last-substantial-update: 2026-06-17T00:00:00Z
+source-git-commit: 9dda1df512aea64703843cfb22603af5f239a490
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2074'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,13 @@ Os servidores MCP corporativos do Adobe CX fornecem a qualquer cliente de IA com
 
 Os servidores MCP do Adobe seguem o padrão [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro) aberto. Qualquer cliente de IA compatível com MCP se conecta a qualquer servidor MCP do Adobe.
 
-## Servidores CX Enterprise MCP
+## Servidores CX Enterprise MCP {#cx-enterprise-mcp-servers}
+
+>[!CONTEXTUALHELP]
+>id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
+>title="CX Enterprise MCP"
+>abstract="Seus aplicativos CX Enterprise, acessíveis por meio de um único terminal MCP. Pergunte, analise e execute ações em linguagem simples dos clientes de IA."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="Documentação do CX Enterprise MCP"
 
 ![O CX Enterprise MCP conecta seu cliente de IA a ferramentas em todo o Adobe CX Enterprise Suite](../assets/mcp-gateway-hero.gif)
 
@@ -61,13 +67,10 @@ O Adobe Experience Manager tem vários servidores MCP para workflows diferentes.
 
 | Servidor MCP | Endpoint | O que você pode fazer |
 | --- | --- | --- |
-| [AEM (Modo de Código)](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | Acesso direto da API REST ao AEM por meio de pesquisa, leitura, gravação e exclusão em linguagem natural |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | Gerenciar programas, ambientes, pipelines e repositórios |
 | [Conteúdo do AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Gerenciar páginas, fragmentos de conteúdo, ativos e lançamentos |
 | [Conteúdo Do AEM (Somente Leitura)](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Páginas de detecção e consulta, fragmentos de conteúdo e lançamentos sem acesso de gravação |
-| [Criação de documentos do AEM](https://docs.da.live/about/early-access/da-mcp) | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | Gerenciar arquivos, histórico de versões e referências de mídia na Criação de documentos |
 | [Governança de experiência da AEM](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | Avaliar conteúdo e imagens em relação às diretrizes da marca e às regras de conformidade |
-| [Produção de experiência do AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | Transforme e crie páginas do AEM em escala usando resumos de conteúdo orientados por IA |
 
 >[!NOTE]
 >
