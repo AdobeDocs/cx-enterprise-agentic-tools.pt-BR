@@ -15,7 +15,7 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-11 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491327/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491320/?learn=on&enablevpops)
 
 Os servidores MCP corporativos do Adobe CX fornecem a qualquer cliente de IA compatível acesso direto e controlado a dados e workflows da Adobe. Conecte-se uma vez e poderá consultar o desempenho da campanha, ativar públicos, revisar jornadas, gerenciar conteúdo e muito mais, tudo em linguagem simples, sem sair do ambiente de IA. Como os servidores MCP ficam entre o cliente de IA e os sistemas subjacentes da Adobe, você obtém flexibilidade de linguagem natural enquanto os controles de acesso e a governança de dados de sua organização permanecem em vigor.
 
@@ -52,8 +52,8 @@ https://cx-enterprise.adobe.io/mcp
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/ajo-mcp) | Revisar jornadas, campanhas e configurações de canal |
 | Adobe Journey Optimizer B2B edition | Gerenciar jornadas B2B, programas de conta, grupos de compra e personalização |
 | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/cja-mcp) | Relatórios de query, visualizações de dados de descoberta e espaços de trabalho do autor |
-| [Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/mcp-server) | Gerenciar programas, campanhas, clientes potenciais, listas inteligentes, emails e formulários |
-| [Real-Time CDP](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Verifique o status de ativação do público-alvo, a integridade do destino e a integridade do fluxo de dados |
+| [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | Gerenciar programas, campanhas, clientes potenciais, listas inteligentes, emails e formulários |
+| [Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Verifique o status de ativação do público-alvo, a integridade do destino e a integridade do fluxo de dados |
 
 Para obter a documentação completa, consulte [CX Enterprise MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview).
 
@@ -68,8 +68,8 @@ O Adobe Experience Manager tem vários servidores MCP para workflows diferentes.
 | Servidor MCP | Endpoint | O que você pode fazer |
 | --- | --- | --- |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | Gerenciar programas, ambientes, pipelines e repositórios |
-| [Conteúdo do AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Gerenciar páginas, fragmentos de conteúdo, ativos e lançamentos |
-| [Conteúdo Do AEM (Somente Leitura)](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Páginas de detecção e consulta, fragmentos de conteúdo e lançamentos sem acesso de gravação |
+| [Conteúdo do AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Gerenciar páginas, fragmentos de conteúdo, ativos e lançamentos |
+| [Conteúdo Do AEM (Somente Leitura)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Páginas de detecção e consulta, fragmentos de conteúdo e lançamentos sem acesso de gravação |
 | [Governança de experiência da AEM](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | Avaliar conteúdo e imagens em relação às diretrizes da marca e às regras de conformidade |
 
 >[!NOTE]
@@ -92,7 +92,7 @@ O Adobe Target MCP está em beta público. Todas as ferramentas disponíveis no 
 
 | Servidor MCP | Endpoint | O que você pode fazer |
 | --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/pt-br/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Analisar atividades, ofertas, públicos, mboxes e relatórios de desempenho |
+| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Analisar atividades, ofertas, públicos, mboxes e relatórios de desempenho |
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ O Adobe Target MCP está em beta público. Todas as ferramentas disponíveis no 
 
 | Servidor MCP | Endpoint | O que você pode fazer |
 | --- | --- | --- |
-| [Adobe Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Gerenciar trabalhos, projetos, registros de planejamento, insights e aprovações de conteúdo |
+| [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Gerenciar trabalhos, projetos, registros de planejamento, insights e aprovações de conteúdo |
 
 >[!NOTE]
 >
