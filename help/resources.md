@@ -2,10 +2,9 @@
 title: Recursos
 description: Um ponto de entrada único para toda a documentação, registros, APIs e guias do desenvolvedor das Ferramentas Corporativas do Adobe CX.
 last-substantial-update: 2026-05-08T00:00:00Z
-index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: 445fd18a2b5a18ec3dcc0ec8e73ec4c020e7b265
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '555'
 ht-degree: 17%
 
 ---
@@ -33,7 +32,7 @@ Todos os principais recursos da Adobe para trabalhar com as ferramentas do Adobe
 |---|---|
 | [Documentação de MCP do Analytics](https://developer.adobe.com/analytics-mcp/docs/) | Guia de configuração do servidor CJA MCP e referência da ferramenta |
 | [Guias MCP do Analytics](https://developer.adobe.com/analytics-mcp/docs/guides/) | Guias de uso detalhados para o servidor MCP do CJA |
-| [Documentação do Real-Time CDP MCP](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guia de configuração do servidor RTCDP MCP |
+| [Documentação do Real-Time CDP MCP](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | Guia de configuração do servidor RTCDP MCP |
 
 ## Habilidades do agente
 

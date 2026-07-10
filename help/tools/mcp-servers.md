@@ -1,11 +1,10 @@
 ---
 title: Servidores MCP
 description: Conecte qualquer cliente de IA compatível com MCP aos workflows corporativos do Adobe CX usando os servidores do Protocolo de contexto de modelo.
-index: false
 last-substantial-update: 2026-06-17T00:00:00Z
-source-git-commit: 9c5cbca16b2e40e8c3859d84dcb9a8330a3b7d83
+source-git-commit: 445fd18a2b5a18ec3dcc0ec8e73ec4c020e7b265
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2412'
 ht-degree: 6%
 
 ---
@@ -47,17 +46,17 @@ https://cx-enterprise.adobe.io/mcp
 
 | aplicativo corporativo CX | O que você pode fazer | Direito extra necessário |
 | --- | --- | --- |
-| [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/analytics-mcp) | Descoberta do conjunto de relatórios, criação de segmentos e criação de espaços de trabalho | Não |
+| [Adobe Analytics](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | Descoberta do conjunto de relatórios, criação de segmentos e criação de espaços de trabalho | Não |
 | Campaign Classic | Descoberta de instância de campanha, navegação de esquema, execução de consulta, controle de fluxo de trabalho e execução de SOAP/JS | Sim |
-| [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/aep-mcp) | Detecção de conjuntos de dados, navegação por esquemas e gerenciamento de sandbox | Não |
+| [Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/aep-mcp) | Detecção de conjuntos de dados, navegação por esquemas e gerenciamento de sandbox | Não |
 | Experimentação | Relatórios de experimento A/B, MVT e MAB, métricas, insights, oportunidades e planejamento de tamanho de amostra | Não |
 | GenStudio | Insights do Advertising (gastos, CTR, campanhas, criações, tags e métricas personalizadas) e rascunhos recentes do Express | Sim |
-| [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/ajo-mcp) | Revisar jornadas, campanhas e configurações de canal | Não |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | Revisar jornadas, campanhas e configurações de canal | Não |
 | Adobe Journey Optimizer B2B edition | Gerenciar jornadas B2B, programas de conta, grupos de compra e personalização | Não |
-| [Adobe Target](https://experienceleague.adobe.com/pt-br/docs/target/using/mcp/target-mcp) | Revisar atividades, ofertas, públicos, mboxes, relatórios de desempenho e URLs de visualização | Sim |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/cja-mcp) | Relatórios de query, visualizações de dados de descoberta e espaços de trabalho do autor | Não |
-| [Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/mcp-server) | Gerenciar programas, campanhas, clientes potenciais, listas inteligentes, emails e formulários | Sim |
-| [Real-Time CDP](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Verifique o status de ativação do público-alvo, a integridade do destino e a integridade do fluxo de dados | Não |
+| [Adobe Target](https://experienceleague.adobe.com/pt-br/docs/target/using/mcp/target-mcp) | Revisar atividades, ofertas, públicos, mboxes, relatórios de desempenho e URLs de visualização | [Sim](https://experienceleague.adobe.com/pt-br/docs/target/using/mcp/target-mcp-get-started#mcp-security) |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | Relatórios de query, visualizações de dados de descoberta e espaços de trabalho do autor | Não |
+| [Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/mcp-server) | Gerenciar programas, campanhas, clientes potenciais, listas inteligentes, emails e formulários | [Sim](https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/mcp-server#get-marketo-credentials) |
+| [Real-Time CDP](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | Verifique o status de ativação do público-alvo, a integridade do destino e a integridade do fluxo de dados | Não |
 
 Para obter a documentação completa, consulte [CX Enterprise MCP](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview).
 
