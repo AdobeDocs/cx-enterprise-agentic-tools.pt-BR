@@ -277,4 +277,4 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 
 | Recurso | O que você encontrará |
 | --- | --- |
-| [Documentação do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service){target="_blank"} | Documentação completa do aplicativo do AEM |
+| [Documentação do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service){target="_blank"} | Documentação completa do aplicativo do AEM |
