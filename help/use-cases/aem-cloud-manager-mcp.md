@@ -2,8 +2,7 @@
 title: Implante no AEM as a Cloud Service com confiança
 description: Verifique a integridade do ambiente, revise o histórico do pipeline e acione ou gerencie implantações sem sair do cliente de IA.
 last-substantial-update: 2026-06-10T00:00:00Z
-index: false
-source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 2%
@@ -15,7 +14,7 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480347/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
 
 A confiança na implantação vem de saber que seu ambiente está saudável antes de você forçar. Esta apresentação mostra como verificar o status do ambiente do AEM, revisar o histórico do pipeline e acionar implantações de um cliente de IA usando o servidor MCP do AEM Cloud Manager, para que as equipes possam se mover rapidamente sem perder visibilidade.
 
@@ -278,4 +277,4 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 
 | Recurso | O que você encontrará |
 | --- | --- |
-| [Documentação do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service){target="_blank"} | Documentação completa do aplicativo do AEM |
+| [Documentação do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service){target="_blank"} | Documentação completa do aplicativo do AEM |
