@@ -2,8 +2,7 @@
 title: Executar uma revisão de campanha entre canais
 description: Use o CX Enterprise MCP em uma única sessão de IA para obter uma visualização unificada da integridade da campanha do AJO, CJA e Real-Time CDP em jornadas, públicos e desempenho.
 last-substantial-update: 2026-06-09T00:00:00Z
-index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '1412'
 ht-degree: 5%

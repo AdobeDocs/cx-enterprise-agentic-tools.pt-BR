@@ -2,8 +2,7 @@
 title: Mantenha o conteúdo atualizado e envie atualizações com mais rapidez
 description: Use o AEM Content MCP Server para localizar, revisar, atualizar e publicar conteúdo do AEM sem alternar entre as ferramentas.
 last-substantial-update: 2026-06-10T00:00:00Z
-index: false
-source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 3%

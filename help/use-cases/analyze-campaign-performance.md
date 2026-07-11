@@ -2,8 +2,7 @@
 title: Insights de campanha de superfície sem criar relatórios
 description: Use o CX Enterprise MCP para fazer perguntas sobre o desempenho do Customer Journey Analytics em linguagem simples e obter respostas sem navegar pelos Report Builder.
 last-substantial-update: 2026-06-09T00:00:00Z
-index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%

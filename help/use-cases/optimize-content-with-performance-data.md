@@ -2,8 +2,7 @@
 title: Preencha as lacunas de desempenho do conteúdo com atualizações orientadas por dados
 description: Use o CJA e o AEM juntos em uma sessão de IA para encontrar campanhas com lacunas de conversão, diagnosticar a causa e atualizar o conteúdo sem alternar entre as ferramentas.
 last-substantial-update: 2026-06-10T00:00:00Z
-index: false
-source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 2%
@@ -42,7 +41,7 @@ Conecte ambos os servidores MCP como conectores personalizados. Adicione cada um
 
 | Servidor | Endpoint |
 | --- | --- |
-| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
+| MCP do CX Enterprise | `https://cx-enterprise.adobe.io/mcp` |
 | Servidor MCP de conteúdo do AEM | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Configuração completa: [documentação dos Conectores personalizados do Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -58,7 +57,7 @@ Conecte ambos os servidores MCP usando o modo de desenvolvedor ChatGPT (plano Pr
 
 | Servidor | Endpoint |
 | --- | --- |
-| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
+| MCP do CX Enterprise | `https://cx-enterprise.adobe.io/mcp` |
 | Servidor MCP de conteúdo do AEM | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Configuração completa: [Documentação de MCP ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
@@ -69,7 +68,7 @@ Usando Gemini, Microsoft Copilot, Cursor, Claude Code ou outro ambiente compatí
 
 | Servidor | Endpoint |
 | --- | --- |
-| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
+| MCP do CX Enterprise | `https://cx-enterprise.adobe.io/mcp` |
 | Servidor MCP de conteúdo do AEM | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Instruções completas de instalação para todos os clientes com suporte: [Conecte-se ao cliente de IA](../tools/mcp-servers.md)

@@ -2,8 +2,7 @@
 title: Entenda seus públicos-alvo e onde eles são ativados
 description: Use o CX Enterprise MCP para monitorar o status de ativação do público-alvo, verificar a integridade do destino e exibir problemas antes que eles afetem suas campanhas.
 last-substantial-update: 2026-06-10T00:00:00Z
-index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 2%
