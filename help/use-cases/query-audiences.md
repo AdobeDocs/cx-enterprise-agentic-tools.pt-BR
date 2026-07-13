@@ -2,9 +2,9 @@
 title: Entenda seus públicos-alvo e onde eles são ativados
 description: Use o CX Enterprise MCP para monitorar o status de ativação do público-alvo, verificar a integridade do destino e exibir problemas antes que eles afetem suas campanhas.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-04 -->
 
-![Cliente de IA que fornece uma estratégia de público-alvo priorizada com recomendações de ativação](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
+![Cliente de IA que fornece uma estratégia de público-alvo priorizada com recomendações de ativação](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
+
+*Selecione para aplicar zoom.*
 
 Saber quais públicos-alvo estão ativos, onde eles estão fluindo e se os destinos estão íntegros é essencial antes do lançamento de uma campanha ou quando o desempenho é baixo. Esta apresentação mostra como obter uma imagem de ativação completa por meio de um cliente de IA, usando o CX Enterprise MCP para exibir o status do público-alvo e a integridade do destino em segundos, sem abrir o Real-Time CDP.
 
@@ -78,7 +80,9 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++Ver um exemplo de resposta
 
-![Listagem de clientes de IA disponíveis e os comportamentos dos clientes que eles representam](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png)
+![Listagem de clientes de IA disponíveis e os comportamentos dos clientes que eles representam](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
+
+*Selecione para aplicar zoom.*
 
 +++
 
@@ -93,7 +97,9 @@ Which audiences are the largest and what makes them valuable?
 
 +++Ver um exemplo de resposta
 
-![Cliente de IA identificando os maiores públicos e explicando o que os torna valiosos](../assets/use-cases/query-audiences/query-audiences-step2.gif)
+![Cliente de IA identificando os maiores públicos e explicando o que os torna valiosos](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
+
+*Selecione para aplicar zoom.*
 
 +++
 
@@ -108,7 +114,9 @@ Where are our audiences currently being activated and to which destinations?
 
 +++Ver um exemplo de resposta
 
-![Cliente de IA mostrando o status de ativação de público-alvo e o mapeamento de destino](../assets/use-cases/query-audiences/query-audiences-step3.gif)
+![Cliente de IA mostrando o status de ativação de público-alvo e o mapeamento de destino](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
+
+*Selecione para aplicar zoom.*
 
 +++
 
@@ -123,7 +131,9 @@ If you were our audience strategist, what would you prioritize next and why?
 
 +++Ver um exemplo de resposta
 
-![Cliente de IA dando recomendações de estratégia de público-alvo priorizado](../assets/use-cases/query-audiences/query-audiences-step4.gif)
+![Cliente de IA dando recomendações de estratégia de público-alvo priorizado](../assets/use-cases/query-audiences/query-audiences-step4.gif){zoomable="yes"}
+
+*Selecione para aplicar zoom.*
 
 +++
 
