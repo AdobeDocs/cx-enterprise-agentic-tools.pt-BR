@@ -2,9 +2,9 @@
 title: Identifique problemas de jornada antes que afetem os clientes
 description: Use o CX Enterprise MCP para monitorar jornadas ativas do AJO, revisar a configuração da campanha e exibir problemas operacionais antes que eles atinjam seu público-alvo.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '997'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 2%
 # Identifique problemas de jornada antes que afetem os clientes
 <!-- last-modified: 2026-06-08 -->
 
-![Cliente de IA que resume a campanha e a estratégia de jornada com um resumo executivo](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
+![Cliente de IA que resume a campanha e a estratégia de jornada com um resumo executivo](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png){zoomable="yes"}
+
+*Selecione para aplicar zoom.*
 
 Jornada problemas que não são detectados e que podem chegar aos clientes antes que qualquer pessoa perceba. Esta apresentação mostra como ficar à frente deles verificando jornadas ativas do AJO, revisando a configuração da campanha e abordando problemas operacionais por meio de um cliente de IA, usando o CX Enterprise MCP para obter respostas em linguagem simples sem abrir o Adobe Journey Optimizer.
 
@@ -83,7 +85,9 @@ What customer journeys are currently available and what business objectives do t
 
 +++Ver um exemplo de resposta
 
-![Lista de clientes de IA disponíveis para jornadas e seus objetivos comerciais](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif)
+![Lista de clientes de IA disponíveis para jornadas e seus objetivos comerciais](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif){zoomable="yes"}
+
+*Selecione para aplicar zoom.*
 
 +++
 
@@ -99,7 +103,9 @@ Walk me through the [journey name] journey and explain the customer experience.
 
 +++Ver um exemplo de resposta
 
-![Cliente de IA apresentando as etapas de jornada e a experiência do cliente Bem-vindo(a)](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png)
+![Cliente de IA apresentando as etapas de jornada e a experiência do cliente Bem-vindo(a)](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png){zoomable="yes"}
+
+*Selecione para aplicar zoom.*
 
 +++
 
@@ -119,7 +125,9 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 +++Ver um exemplo de resposta
 
-![Campanhas ativas da lista de clientes de IA com seu direcionamento de público-alvo e resultados pretendidos](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif)
+![Campanhas ativas da lista de clientes de IA com seu direcionamento de público-alvo e resultados pretendidos](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif){zoomable="yes"}
+
+*Selecione para aplicar zoom.*
 
 +++
 
@@ -135,7 +143,9 @@ How do our campaigns and journeys work together to improve customer engagement?
 
 +++Ver um exemplo de resposta
 
-![Cliente de IA explicando a relação entre campanhas e jornadas](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png)
+![Cliente de IA explicando a relação entre campanhas e jornadas](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png){zoomable="yes"}
+
+*Selecione para aplicar zoom.*
 
 +++
 
@@ -151,7 +161,9 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 +++Ver um exemplo de resposta
 
-![Cliente de IA dando recomendações de marketing de ciclo de vida priorizadas](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif)
+![Cliente de IA dando recomendações de marketing de ciclo de vida priorizadas](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif){zoomable="yes"}
+
+*Selecione para aplicar zoom.*
 
 +++
 

@@ -2,9 +2,9 @@
 title: Executar uma revisão de campanha entre canais
 description: Use o CX Enterprise MCP em uma única sessão de IA para obter uma visualização unificada da integridade da campanha do AJO, CJA e Real-Time CDP em jornadas, públicos e desempenho.
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1415'
 ht-degree: 5%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 5%
 
 <!-- last-modified: 2026-05-21 -->
 
-![Executar uma Análise de Campanha entre Canais](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review)
+![Executar uma Análise de Campanha entre Canais](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review){zoomable="yes"}
+
+*Selecione para aplicar zoom.*
 
 Uma imagem completa da integridade da campanha requer dados de vários sistemas: jornadas ativas do AJO, status de ativação de público-alvo do Real-Time CDP e métricas de desempenho do CJA. Esta apresentação mostra como conectar todos os três em uma única sessão de IA, para que você possa mudar do status da jornada para a integridade do público-alvo para as tendências de desempenho em uma conversa em vez de três ferramentas separadas.
 

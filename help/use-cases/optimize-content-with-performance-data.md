@@ -2,9 +2,9 @@
 title: Preencha as lacunas de desempenho do conteúdo com atualizações orientadas por dados
 description: Use o CJA e o AEM juntos em uma sessão de IA para encontrar campanhas com lacunas de conversão, diagnosticar a causa e atualizar o conteúdo sem alternar entre as ferramentas.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1090'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 2%
 # Preencha as lacunas de desempenho do conteúdo com atualizações orientadas por dados
 <!-- last-modified: 2026-06-10 -->
 
-![O cliente IA comparando lado a lado o conteúdo original e atualizado da página](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
+![O cliente IA comparando lado a lado o conteúdo original e atualizado da página](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png){zoomable="yes"}
+
+*Selecione para aplicar zoom.*
 
 Resultados das campanhas de custo com lacunas de desempenho do conteúdo, e fechá-las geralmente significa alternar entre a ferramenta de análise e o CMS. Esta apresentação mostra como fazer isso em uma única sessão de IA: destacar campanhas com lacunas de conversão no Customer Journey Analytics, diagnosticar a causa, inspecionar o conteúdo com baixo desempenho no AEM e aplicar atualizações sem sair da conversa.
 
@@ -94,7 +96,9 @@ Which campaigns have strong click-through but low conversion in the last 30 days
 
 +++Ver um exemplo de resposta
 
-![Campanhas de detecção de clientes de IA com muitos click-throughs, mas baixa conversão do CJA](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png)
+![Campanhas de detecção de clientes de IA com muitos click-throughs, mas baixa conversão do CJA](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png){zoomable="yes"}
+
+*Selecione para aplicar zoom.*
 
 +++
 
@@ -110,7 +114,9 @@ What's causing the conversion drop-off, is it device, segment, or content?
 
 +++Ver um exemplo de resposta
 
-![Cliente de IA diagnosticando o menu suspenso de conversão por dispositivo, segmento e fatores de conteúdo](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png)
+![Cliente de IA diagnosticando o menu suspenso de conversão por dispositivo, segmento e fatores de conteúdo](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png){zoomable="yes"}
+
+*Selecione para aplicar zoom.*
 
 +++
 
@@ -126,7 +132,9 @@ Show me the Bali Surf Camp page.
 
 +++Ver um exemplo de resposta
 
-![Cliente de IA mostrando o conteúdo atual da página de aterrissagem do AEM](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png)
+![Cliente de IA mostrando o conteúdo atual da página de aterrissagem do AEM](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png){zoomable="yes"}
+
+*Selecione para aplicar zoom.*
 
 +++
 
@@ -142,7 +150,9 @@ Which content sections are underperforming, and what changes would you recommend
 
 +++Ver um exemplo de resposta
 
-![Cliente de IA identificando seções de conteúdo com baixo desempenho e recomendando alterações específicas](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif)
+![Cliente de IA identificando seções de conteúdo com baixo desempenho e recomendando alterações específicas](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif){zoomable="yes"}
+
+*Selecione para aplicar zoom.*
 
 +++
 
@@ -158,7 +168,9 @@ Create an optimized version of the Bali Surf Camp page and summarize the propose
 
 +++Ver um exemplo de resposta
 
-![Cliente de IA criando uma versão otimizada da página e resumindo as alterações](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif)
+![Cliente de IA criando uma versão otimizada da página e resumindo as alterações](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif){zoomable="yes"}
+
+*Selecione para aplicar zoom.*
 
 +++
 
