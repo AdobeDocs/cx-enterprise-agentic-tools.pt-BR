@@ -1,8 +1,8 @@
 ---
 title: Ferramentas Corporativas do Adobe CX
 description: Conecte agentes de IA e ferramentas de desenvolvimento aos recursos do Adobe CX Enterprise usando servidores MCP, habilidades do agente e APIs.
-last-substantial-update: 2026-06-08T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 Deixe a IA se tornar seu colaborador para o Adobe CX Enterprise. Conecte seu cliente de IA a campanhas, públicos, jornadas e conteúdo. Interaja com eles em linguagem simples a partir de qualquer ferramenta que você já usa. Nenhuma interface nova, nenhuma alternância de contexto, nenhum código necessário para começar.
 
 >[!TIP]
->**Iniciar com CX Enterprise MCP.** Uma conexão fornece ao cliente de IA acesso à Adobe Journey Optimizer, Customer Journey Analytics e Real-Time CDP com base nas licenças da organização. [Conectar agora](tools/mcp-servers.md#cx-enterprise-mcp-servers)
+>**Comece com o CX Co-worker Gateway.** Uma conexão fornece ao cliente de IA acesso à Adobe Journey Optimizer, Customer Journey Analytics e Real-Time CDP com base nas licenças da organização. [Conectar agora](tools/mcp-servers.md#cx-coworker-gateway)
 
 <!--
 CARDS
@@ -122,7 +122,7 @@ CARDS
 
 >[!TAB Servidores MCP]
 
-Use qualquer cliente de IA compatível para acessar os aplicativos do CX Enterprise em linguagem simples. Nenhum código necessário. Comece com o CX Enterprise MCP para uma única conexão com o AJO, o CJA e o Real-Time CDP ou conecte-se diretamente ao AEM e a outros aplicativos.
+Use qualquer cliente de IA compatível para acessar os aplicativos do CX Enterprise em linguagem simples. Nenhum código necessário. Comece com o gateway do CX Co-worker para uma única conexão com o AJO, o CJA e o Real-Time CDP ou conecte-se diretamente ao AEM e a outros aplicativos.
 
 - Conectar-se em minutos de Claude, Cursor, ChatGPT e outros clientes compatíveis com MCP
 - Consultar campanhas, públicos e dados de jornada usando linguagem natural
