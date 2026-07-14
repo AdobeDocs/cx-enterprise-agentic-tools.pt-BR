@@ -21,8 +21,8 @@ Resultados das campanhas de custo com lacunas de desempenho do conteúdo, e fech
 
 | Detalhes do cenário | |
 | --- | --- |
-| Aplicativos corporativos CX | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/overview/introduction?lang=pt-BR) |
-| Ferramentas de agilidade | [CX Co-worker Gateway](../tools/mcp-servers.md#cx-coworker-gateway), [AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| Aplicativos corporativos CX | [Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/overview/introduction?lang=pt-BR) |
+| Ferramentas de agilidade | [CX Co-worker Gateway](../tools/mcp-servers.md#cx-coworker-gateway), [AEM Content MCP Server](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | Público-alvo | Gerentes de campanha, estrategistas de conteúdo, operações de marketing |
 | Pré-requisito | Cliente de IA compatível com MCP, acesso CJA, acesso AEM as a Cloud Service |
 
