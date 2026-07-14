@@ -1,8 +1,8 @@
 ---
 title: Insights de campanha de superfície sem criar relatórios
-description: Use o CX Enterprise MCP para fazer perguntas sobre o desempenho do Customer Journey Analytics em linguagem simples e obter respostas sem navegar pelos Report Builder.
-last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
+description: Use o CX Co-worker Gateway para fazer perguntas sobre o desempenho do Customer Journey Analytics em linguagem simples e obter respostas sem navegar pelos Report Builder.
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -22,8 +22,8 @@ A análise de campanha que antes exigia a criação de relatórios em uma ferram
 
 | Detalhes do cenário | |
 | --- | --- |
-| Aplicativos corporativos CX | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview) |
-| Ferramentas de agilidade | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| Aplicativos corporativos CX | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Ferramentas de agilidade | [CX Co-worker Gateway](../tools/mcp-servers.md#cx-coworker-gateway) |
 | Público-alvo | Analistas, gerentes de campanha |
 | Pré-requisito | Cliente de IA compatível com MCP, acesso ao CJA |
 
@@ -35,31 +35,31 @@ Cada etapa mostra um prompt representativo e um exemplo de resposta de IA. Segue
 
 >[!TAB Claude.ai]
 
-Conecte o CX Enterprise MCP como um conector personalizado para acessar as ferramentas do Customer Journey Analytics.
+Conecte o CX Co-worker Gateway como um conector personalizado para acessar as ferramentas do Customer Journey Analytics.
 
 1. Vá para **Configurações > Integrações** em Claude.ai.
-2. Selecione **Adicionar conector personalizado** e insira a URL do servidor: `https://cx-enterprise.adobe.io/mcp`
+2. Selecione **Adicionar conector personalizado** e insira a URL do servidor: `https://cx-coworker-gateway.adobe.io/mcp`
 3. Selecione **Conectar** e entre com sua Adobe ID.
 
 Configuração completa: [documentação dos Conectores personalizados do Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB GPTchat]
 
-Conecte o CX Enterprise MCP usando o modo de desenvolvedor ChatGPT (plano Pro, Plus, Business, Enterprise ou Education necessário).
+Conecte o CX Co-worker Gateway usando o ChatGPT Developer Mode (plano Pro, Plus, Business, Enterprise ou Education necessário).
 
 1. Habilite o **Modo de Desenvolvedor** em **Configurações de ChatGPT**.
 2. Vá para **Configurações > Integrações** e selecione **Adicionar conector personalizado > Servidor MCP remoto**.
-3. Digite a URL do servidor: `https://cx-enterprise.adobe.io/mcp`
+3. Digite a URL do servidor: `https://cx-coworker-gateway.adobe.io/mcp`
 4. Selecione **Conectar** e entre com sua Adobe ID.
 
 Configuração completa: [Documentação de MCP ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB Outros clientes de IA]
 
-Usando Gemini, Microsoft Copilot, Cursor, Claude Code ou outro ambiente compatível com MCP? Conecte-se ao CX Enterprise MCP usando este endpoint:
+Usando Gemini, Microsoft Copilot, Cursor, Claude Code ou outro ambiente compatível com MCP? Conecte-se ao CX Co-worker Gateway usando este endpoint:
 
 ```
-https://cx-enterprise.adobe.io/mcp
+https://cx-coworker-gateway.adobe.io/mcp
 ```
 
 Instruções completas de instalação para todos os clientes com suporte: [Conecte-se ao cliente de IA](../tools/mcp-servers.md)
@@ -165,7 +165,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 >[!NOTE]
 >
->As ferramentas do CJA acessadas por meio do CX Enterprise MCP podem criar segmentos, métricas calculadas e projetos Workspace no CJA na mesma sessão. Para atualizar campanhas, jornadas ou conteúdo em outros aplicativos, conecte o servidor MCP relevante ou vá diretamente para o aplicativo.
+>As ferramentas do CJA acessadas por meio do CX Co-worker Gateway podem criar segmentos, métricas calculadas e projetos Workspace no CJA na mesma sessão. Para atualizar campanhas, jornadas ou conteúdo em outros aplicativos, conecte o servidor MCP relevante ou vá diretamente para o aplicativo.
 
 ## O que você realizou
 
@@ -173,7 +173,7 @@ Você conectou um cliente de IA ao Customer Journey Analytics e migrou da descob
 
 ## Mais você pode realizar
 
-O CX Enterprise MCP pode exibir muito mais insights do Customer Journey Analytics do que as apresentações. Expanda um cenário abaixo para ver os prompts que você pode tentar na mesma sessão.
+O CX Co-worker Gateway pode exibir muito mais insights do Customer Journey Analytics do que as apresentações. Expanda um cenário abaixo para ver os prompts que você pode tentar na mesma sessão.
 
 +++Descubra o que está funcionando e o que não está funcionando
 
@@ -257,7 +257,7 @@ What would have the biggest impact on revenue?
 
 +++Transformar insights em ação
 
-As ferramentas do CJA acessadas por meio do CX Enterprise MCP podem criar segmentos, públicos, métricas calculadas e projetos do Workspace diretamente no CJA sem sair da sessão de IA. Use estes prompts para agir no que você encontrou.
+As ferramentas do CJA acessadas por meio do gateway do CX Co-worker podem criar segmentos, públicos-alvo, métricas calculadas e projetos do Workspace diretamente no CJA sem sair da sessão de IA. Use estes prompts para agir no que você encontrou.
 
 **Solicitações**
 
@@ -285,4 +285,4 @@ Save this analysis as a Workspace project for executive reporting.
 | Recurso | O que você encontrará |
 | --- | --- |
 | [Servidor MCP do CJA no Registro de IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | Disponibilidade e ferramentas do CJA MCP Server |
-| [Documentação do Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-landing){target="_blank"} | Documentação completa do aplicativo do CJA |
+| [Documentação do Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"} | Documentação completa do aplicativo do CJA |

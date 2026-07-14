@@ -1,8 +1,8 @@
 ---
 title: Executar uma revisão de campanha entre canais
-description: Use o CX Enterprise MCP em uma única sessão de IA para obter uma visualização unificada da integridade da campanha do AJO, CJA e Real-Time CDP em jornadas, públicos e desempenho.
-last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
+description: Use o CX Co-worker Gateway em uma única sessão de IA para obter uma visualização unificada da integridade da campanha do AJO, do CJA e do Real-Time CDP em jornadas, públicos e desempenho.
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
 workflow-type: tm+mt
 source-wordcount: '1415'
 ht-degree: 5%
@@ -22,8 +22,8 @@ Uma imagem completa da integridade da campanha requer dados de vários sistemas:
 
 | Detalhes do cenário | |
 | --- | --- |
-| Aplicativos corporativos CX | [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home) |
-| Ferramentas de agilidade | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| Aplicativos corporativos CX | [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home) |
+| Ferramentas de agilidade | [CX Co-worker Gateway](../tools/mcp-servers.md#cx-coworker-gateway) |
 | Público-alvo | Gerentes de campanha, operações de marketing |
 | Pré-requisito | Cliente de IA compatível com MCP, acesso ao AJO, CJA e Real-Time CDP |
 
@@ -35,31 +35,31 @@ Cada etapa mostra um prompt representativo e um exemplo de resposta de IA. Segue
 
 >[!TAB Claude.ai]
 
-Conecte o CX Enterprise MCP como um conector personalizado. Uma conexão fornece acesso às ferramentas do AJO, CJA e Real-Time CDP.
+Conecte o CX Co-worker Gateway como um conector personalizado. Uma conexão fornece acesso às ferramentas do AJO, CJA e Real-Time CDP.
 
 1. Vá para **Configurações > Integrações** em Claude.ai.
-2. Selecione **Adicionar conector personalizado** e insira a URL do servidor: `https://cx-enterprise.adobe.io/mcp`
+2. Selecione **Adicionar conector personalizado** e insira a URL do servidor: `https://cx-coworker-gateway.adobe.io/mcp`
 3. Selecione **Conectar** e entre com sua Adobe ID.
 
 Configuração completa: [documentação dos Conectores personalizados do Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB GPTchat]
 
-Conecte o CX Enterprise MCP usando o modo de desenvolvedor ChatGPT (plano Pro, Plus, Business, Enterprise ou Education necessário).
+Conecte o CX Co-worker Gateway usando o ChatGPT Developer Mode (plano Pro, Plus, Business, Enterprise ou Education necessário).
 
 1. Habilite o **Modo de Desenvolvedor** em **Configurações de ChatGPT**.
 2. Vá para **Configurações > Integrações** e selecione **Adicionar conector personalizado > Servidor MCP remoto**.
-3. Digite a URL do servidor: `https://cx-enterprise.adobe.io/mcp`
+3. Digite a URL do servidor: `https://cx-coworker-gateway.adobe.io/mcp`
 4. Selecione **Conectar** e entre com sua Adobe ID.
 
 Configuração completa: [Documentação de MCP ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB Outros clientes de IA]
 
-Usando Gemini, Microsoft Copilot, Cursor, Claude Code ou outro ambiente compatível com MCP? Conecte-se ao CX Enterprise MCP usando este endpoint:
+Usando Gemini, Microsoft Copilot, Cursor, Claude Code ou outro ambiente compatível com MCP? Conecte-se ao CX Co-worker Gateway usando este endpoint:
 
 ```
-https://cx-enterprise.adobe.io/mcp
+https://cx-coworker-gateway.adobe.io/mcp
 ```
 
 Instruções completas de instalação para todos os clientes com suporte: [Conecte-se ao cliente de IA](../tools/mcp-servers.md)
