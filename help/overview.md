@@ -14,7 +14,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491248/?captions=por_br&learn=on&enablevpops)
 
 Deixe a IA se tornar seu colaborador para o Adobe CX Enterprise. Conecte seu cliente de IA a campanhas, públicos, jornadas e conteúdo. Interaja com eles em linguagem simples a partir de qualquer ferramenta que você já usa. Nenhuma interface nova, nenhuma alternância de contexto, nenhum código necessário para começar.
 
