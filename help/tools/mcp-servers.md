@@ -5,7 +5,7 @@ last-substantial-update: 2026-07-14T00:00:00Z
 source-git-commit: a619c651d13834f53ecf1dd524aae3e7e5efcca5
 workflow-type: tm+mt
 source-wordcount: '2422'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -20,13 +20,13 @@ Os servidores MCP da Adobe fornecem a qualquer cliente de IA compatível acesso 
 
 Os servidores MCP do Adobe seguem o padrão [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro) aberto. Qualquer cliente de IA compatível com MCP se conecta a qualquer servidor MCP do Adobe.
 
-## Servidores CX Enterprise MCP {#cx-enterprise-mcp-servers}
+## Servidores MCP do CX Enterprise {#cx-enterprise-mcp-servers}
 
 >[!CONTEXTUALHELP]
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
->title="CX Co-worker Gateway"
+>title="CX Coworker Gateway"
 >abstract="Seus aplicativos CX Enterprise, acessíveis por meio de um único ponto de acesso MCP. Pergunte, analise e execute ações em linguagem simples dos clientes de IA."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="Documentação do CX Co-worker Gateway"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="Documentação do CX Coworker Gateway"
 
 ![O CX Co-worker Gateway conecta seu cliente de IA a ferramentas em todo o Adobe CX Enterprise Suite](../assets/mcp-gateway-hero.gif)
 
@@ -308,7 +308,7 @@ CARDS
                 </div>
                 <a href="../use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Insights de campanha de superfície</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -331,7 +331,7 @@ CARDS
                 </div>
                 <a href="../use-cases/query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Verificar ativação de público-alvo</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -354,7 +354,7 @@ CARDS
                 </div>
                 <a href="../use-cases/manage-ajo-journeys.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Monitorar suas jornadas</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -377,7 +377,7 @@ CARDS
                 </div>
                 <a href="../use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Enviar conteúdo mais rápido</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -400,7 +400,7 @@ CARDS
                 </div>
                 <a href="../use-cases/optimize-content-with-performance-data.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Fechar lacunas de desempenho</span>
-                
+                </a>
             </div>
         </div>
     </div>
