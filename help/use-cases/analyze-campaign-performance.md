@@ -20,7 +20,7 @@ A análise de campanha que antes exigia a criação de relatórios em uma ferram
 
 | Detalhes do cenário | |
 | --- | --- |
-| Aplicativos corporativos CX | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Aplicativos corporativos CX | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview) |
 | Ferramentas agênticas | [CX Enterprise Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home) ou [Customer Journey Analytics MCP Server](../tools/mcp-servers.md) |
 | Público-alvo | Analistas, gerentes de campanha |
 | Pré-requisito | Cliente de IA compatível com MCP, acesso ao CJA |
