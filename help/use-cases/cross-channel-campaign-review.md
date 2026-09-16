@@ -1,14 +1,12 @@
 ---
 title: Executar uma revisão de campanha entre canais
-description: Use o CX Co-worker Gateway em uma única sessão de IA para obter uma visualização unificada da integridade da campanha do AJO, do CJA e do Real-Time CDP em jornadas, públicos e desempenho.
-last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
+description: Obtenha uma visualização unificada da integridade da campanha do AJO, CJA e Real-Time CDP em jornadas, públicos-alvo e desempenho em uma única sessão de IA.
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '1415'
-ht-degree: 5%
-
+source-wordcount: '1564'
+ht-degree: 6%
 ---
-
 
 # Executar uma revisão de campanha entre canais
 
@@ -18,12 +16,12 @@ ht-degree: 5%
 
 *Selecione para aplicar zoom.*
 
-Uma imagem completa da integridade da campanha requer dados de vários sistemas: jornadas ativas do AJO, status de ativação de público-alvo do Real-Time CDP e métricas de desempenho do CJA. Esta apresentação mostra como conectar todos os três em uma única sessão de IA, para que você possa mudar do status da jornada para a integridade do público-alvo para as tendências de desempenho em uma conversa em vez de três ferramentas separadas.
+Uma imagem completa da integridade da campanha requer dados de vários sistemas: jornadas ativas do AJO, status de ativação de público-alvo do Real-Time CDP e métricas de desempenho do CJA. Esta apresentação mostra como reunir os três em uma única sessão de IA, para que você possa mudar do status da jornada para a integridade do público-alvo para as tendências de desempenho em uma conversa em vez de três ferramentas separadas.
 
 | Detalhes do cenário | |
 | --- | --- |
-| Aplicativos corporativos CX | [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home) |
-| Ferramentas de agilidade | [CX Co-worker Gateway](../tools/mcp-servers.md#cx-coworker-gateway) |
+| Aplicativos corporativos CX | [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home) |
+| Ferramentas agênticas | [CX Enterprise Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home) ou [Adobe Journey Optimizer](../tools/mcp-servers.md), [Customer Journey Analytics](../tools/mcp-servers.md) e [Real-Time CDP](../tools/mcp-servers.md) Servidores MCP |
 | Público-alvo | Gerentes de campanha, operações de marketing |
 | Pré-requisito | Cliente de IA compatível com MCP, acesso ao AJO, CJA e Real-Time CDP |
 
@@ -33,34 +31,54 @@ Cada etapa mostra um prompt representativo e um exemplo de resposta de IA. Segue
 
 >[!BEGINTABS]
 
+>[!TAB CX Enterprise Coworker]
+
+O CX Enterprise Coworker se conecta ao AJO, CJA e Real-Time CDP em um só local, sem a necessidade de configuração do servidor ou do cliente de IA. [Experimente o CX Enterprise Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home)
+
+Se você preferir conectar seu próprio cliente de IA diretamente, conecte todos os três servidores MCP usando as guias abaixo. O Real-Time CDP MCP Server está em versão beta pública e requer que sua organização seja reconhecida.
+
 >[!TAB Claude.ai]
 
-Conecte o CX Co-worker Gateway como um conector personalizado. Uma conexão fornece acesso às ferramentas do AJO, CJA e Real-Time CDP.
+Conecte todos os três servidores MCP como conectores personalizados. Adicione cada um separadamente.
 
 1. Vá para **Configurações > Integrações** em Claude.ai.
-2. Selecione **Adicionar conector personalizado** e insira a URL do servidor: `https://cx-coworker-gateway.adobe.io/mcp`
-3. Selecione **Conectar** e entre com sua Adobe ID.
+2. Selecione **Adicionar conector personalizado**, insira uma URL de servidor e selecione **Conectar**.
+3. Faça logon com sua Adobe ID e repita o procedimento para os servidores restantes.
+
+| Servidor | Endpoint |
+| --- | --- |
+| Adobe Journey Optimizer MCP Server | `https://ajo-mcp.adobe.io/mcp` |
+| Customer Journey Analytics MCP Server | `https://cja-mcp.adobe.io/mcp` |
+| Real-Time CDP MCP Server | `https://rtcdp-mcp.adobe.io/mcp` |
 
 Configuração completa: [documentação dos Conectores personalizados do Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB GPTchat]
 
-Conecte o CX Co-worker Gateway usando o ChatGPT Developer Mode (plano Pro, Plus, Business, Enterprise ou Education necessário).
+Conecte todos os três servidores MCP usando o modo de desenvolvedor ChatGPT (plano Pro, Plus, Business, Enterprise ou Education necessário). Adicione cada servidor separadamente.
 
 1. Habilite o **Modo de Desenvolvedor** em **Configurações de ChatGPT**.
 2. Vá para **Configurações > Integrações** e selecione **Adicionar conector personalizado > Servidor MCP remoto**.
-3. Digite a URL do servidor: `https://cx-coworker-gateway.adobe.io/mcp`
-4. Selecione **Conectar** e entre com sua Adobe ID.
+3. Insira uma URL de servidor, selecione **Conectar** e entre com sua Adobe ID.
+4. Repita o procedimento para os servidores restantes.
+
+| Servidor | Endpoint |
+| --- | --- |
+| Adobe Journey Optimizer MCP Server | `https://ajo-mcp.adobe.io/mcp` |
+| Customer Journey Analytics MCP Server | `https://cja-mcp.adobe.io/mcp` |
+| Real-Time CDP MCP Server | `https://rtcdp-mcp.adobe.io/mcp` |
 
 Configuração completa: [Documentação de MCP ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB Outros clientes de IA]
 
-Usando Gemini, Microsoft Copilot, Cursor, Claude Code ou outro ambiente compatível com MCP? Conecte-se ao CX Co-worker Gateway usando este endpoint:
+Usando Gemini, Microsoft Copilot, Cursor, Claude Code ou outro ambiente compatível com MCP? Conecte-se aos três servidores MCP usando estes endpoints:
 
-```
-https://cx-coworker-gateway.adobe.io/mcp
-```
+| Servidor | Endpoint |
+| --- | --- |
+| Adobe Journey Optimizer MCP Server | `https://ajo-mcp.adobe.io/mcp` |
+| Customer Journey Analytics MCP Server | `https://cja-mcp.adobe.io/mcp` |
+| Real-Time CDP MCP Server | `https://rtcdp-mcp.adobe.io/mcp` |
 
 Instruções completas de instalação para todos os clientes com suporte: [Conecte-se ao cliente de IA](../tools/mcp-servers.md)
 
@@ -118,8 +136,8 @@ Show me the activation status for the high-value loyalty segment.
 | --- | --- | --- | --- |
 | Google Ads | Ativo | 21 de maio de 2026 02:14 AM | 48,320 |
 | Anúncios do Meta | Ativo | 21 de maio de 2026 01:58 AM | 48,295 |
-| Salesforce Marketing Cloud | Ativo | 20 de maio de 2026 23:00:30 | 47,940 |
-| Adobe Target | Ativo | 21 de maio de 2026 12:00 AM | 48,320 |
+| Salesforce Marketing Cloud | Ativo | 20 de maio de 2026, 23h30 | 47,940 |
+| Adobe Target | Ativo | 21 de maio de 2026, 00:00 | 48,320 |
 
 Nenhum erro de fluxo de dados detectado. Todas as ativações foram concluídas nas últimas 3 horas.
 

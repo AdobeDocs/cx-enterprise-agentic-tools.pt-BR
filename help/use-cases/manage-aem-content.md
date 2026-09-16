@@ -1,14 +1,12 @@
 ---
 title: Mantenha o conteúdo atualizado e envie atualizações com mais rapidez
-description: Use o AEM Content MCP Server para localizar, revisar, atualizar e publicar conteúdo do AEM sem alternar entre as ferramentas.
-last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
+description: Use o AEM MCP Server para localizar, revisar, atualizar e publicar conteúdo do AEM sem alternar entre as ferramentas.
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 2%
-
+source-wordcount: '1019'
+ht-degree: 8%
 ---
-
 
 # Mantenha o conteúdo atualizado e envie atualizações com mais rapidez
 
@@ -18,12 +16,12 @@ ht-degree: 2%
 
 *Selecione para aplicar zoom.*
 
-Manter o conteúdo do site atualizado é uma pressão operacional constante. Esta apresentação mostra como as equipes de conteúdo podem encontrar, revisar, atualizar e publicar páginas e fragmentos de conteúdo do AEM por meio de um cliente de IA, usando o servidor MCP de conteúdo do AEM para reduzir o tempo entre uma decisão de conteúdo e uma atualização em tempo real.
+Manter o conteúdo do site atualizado é uma pressão operacional constante. Esta apresentação mostra como as equipes de conteúdo podem encontrar, revisar, atualizar e publicar páginas e fragmentos de conteúdo do AEM por meio de um cliente de IA, usando o servidor MCP do AEM para reduzir o tempo entre uma decisão de conteúdo e uma atualização em tempo real.
 
 | Detalhes do cenário | |
 | --- | --- |
-| Aplicativos corporativos CX | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/overview/introduction?lang=pt-BR) |
-| Ferramentas de agilidade | [Servidor MCP de Conteúdo do AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| Aplicativos corporativos CX | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/overview/introduction?lang=pt-BR) |
+| Ferramentas agênticas | [CX Enterprise Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home) ou [AEM MCP Server](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
 | Público-alvo | Gerentes de conteúdo, equipes de marketing |
 | Pré-requisito | Cliente de IA compatível com MCP, acesso ao AEM as a Cloud Service |
 
@@ -33,33 +31,39 @@ Cada etapa mostra um prompt representativo e um exemplo de resposta de IA. Segue
 
 >[!BEGINTABS]
 
+>[!TAB CX Enterprise Coworker]
+
+A maneira mais rápida de fazer isso é no CX Enterprise Coworker, que não requer nenhuma configuração de servidor ou de cliente de IA. [Experimente o CX Enterprise Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home)
+
+Se você preferir conectar seu próprio cliente de IA diretamente ao AEM, consulte as guias abaixo.
+
 >[!TAB Claude.ai]
 
-Conecte o AEM Content MCP Server como um conector personalizado.
+Conecte o AEM MCP Server como um conector personalizado.
 
 1. Vá para **Configurações > Integrações** em Claude.ai.
-2. Selecione **Adicionar conector personalizado** e insira a URL do servidor: `https://mcp.adobeaemcloud.com/adobe/mcp/content`
+2. Selecione **Adicionar conector personalizado** e insira a URL do servidor: `https://mcp.adobeaemcloud.com/adobe/mcp/aem`
 3. Selecione **Conectar** e entre com sua Adobe ID.
 
 Configuração completa: [documentação dos Conectores personalizados do Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB GPTchat]
 
-Conecte o Servidor de MCP de Conteúdo do AEM usando o Modo de Desenvolvedor ChatGPT (plano Pro, Plus, Business, Enterprise ou Education necessário).
+Conecte o AEM MCP Server usando o modo de desenvolvedor ChatGPT (plano Pro, Plus, Business, Enterprise ou Education necessário).
 
 1. Habilite o **Modo de Desenvolvedor** em **Configurações de ChatGPT**.
 2. Vá para **Configurações > Integrações** e selecione **Adicionar conector personalizado > Servidor MCP remoto**.
-3. Digite a URL do servidor: `https://mcp.adobeaemcloud.com/adobe/mcp/content`
+3. Digite a URL do servidor: `https://mcp.adobeaemcloud.com/adobe/mcp/aem`
 4. Selecione **Conectar** e entre com sua Adobe ID.
 
 Configuração completa: [Documentação de MCP ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB Outros clientes de IA]
 
-Usando Gemini, Microsoft Copilot, Cursor, Claude Code ou outro ambiente compatível com MCP? Conecte-se ao Servidor MCP de Conteúdo do AEM usando este endpoint:
+Usando Gemini, Microsoft Copilot, Cursor, Claude Code ou outro ambiente compatível com MCP? Conecte-se ao Servidor MCP do AEM usando este endpoint:
 
 ```
-https://mcp.adobeaemcloud.com/adobe/mcp/content
+https://mcp.adobeaemcloud.com/adobe/mcp/aem
 ```
 
 Instruções completas de instalação para todos os clientes com suporte: [Conecte-se ao cliente de IA](../tools/mcp-servers.md)
@@ -69,8 +73,6 @@ Instruções completas de instalação para todos os clientes com suporte: [Cone
 >[!NOTE]
 >
 >Faça logon com sua Adobe ID quando solicitado e selecione a organização IMS vinculada ao seu ambiente AEM as a Cloud Service. As permissões são aplicadas no nível da AEM. O cliente de IA só pode executar operações para as quais sua conta está autorizada.
->
->Se você precisar apenas navegar ou auditar o conteúdo sem fazer alterações, use o ponto de extremidade do servidor Somente Leitura: `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly`. Todos os prompts de descoberta e revisão desta página funcionam com ambos os servidores.
 >
 >Na primeira conexão, o cliente de IA pode solicitar que você confirme a organização ou o ambiente do AEM. Depois que o contexto é definido, o servidor MCP o utiliza para o restante da sessão.
 >
@@ -129,7 +131,7 @@ Improve the Hero CTAs.
 
 >[!CAUTION]
 >
->Confirme cada alteração quando solicitado. O AEM Content MCP Server pode criar, atualizar e excluir conteúdo. Revise a alteração proposta antes de aprová-la, especialmente em páginas ativas.
+>Confirme cada alteração quando solicitado. O AEM MCP Server pode criar, atualizar e excluir conteúdo. Revise a alteração proposta antes de aprová-la, especialmente em páginas ativas.
 
 ## Etapa 4: publicar e compartilhar
 
@@ -150,11 +152,11 @@ Publish the changes and share the URL.
 
 ## O que você realizou
 
-Você usou o Servidor MCP de Conteúdo do AEM para localizar conteúdo, revisar uma página ao vivo, aplicar as melhorias sugeridas pela IA e publicar o resultado, sem abrir a interface do AEM. Ao combinar a descoberta, a edição e a publicação de conteúdo em uma única sessão de IA, as equipes de conteúdo podem mudar da identificação de uma lacuna para o envio de uma atualização mais rápido e com menos alternâncias de contexto. O mesmo fluxo de trabalho é dimensionado para várias páginas, fragmentos de conteúdo e lançamentos coordenados de campanha.
+Você usou o servidor MCP do AEM para localizar conteúdo, revisar uma página ao vivo, aplicar as melhorias sugeridas pela IA e publicar o resultado, sem abrir a interface do AEM. Ao combinar a descoberta, a edição e a publicação de conteúdo em uma única sessão de IA, as equipes de conteúdo podem mudar da identificação de uma lacuna para o envio de uma atualização mais rápido e com menos alternâncias de contexto. O mesmo fluxo de trabalho é dimensionado para várias páginas, fragmentos de conteúdo e lançamentos coordenados de campanha.
 
 ## Mais você pode realizar
 
-O AEM Content MCP Server lida com muito mais do que as capas de apresentação. Expanda um cenário abaixo para ver os prompts que você pode tentar na mesma sessão.
+O AEM MCP Server lida com muito mais do que as capas de apresentação. Expanda um cenário abaixo para ver os prompts que você pode tentar na mesma sessão.
 
 +++Antecipe-se a uma revisão ou reinicialização do site
 
@@ -273,5 +275,5 @@ Promote the May Updates launch to production.
 
 | Recurso | O que você encontrará |
 | --- | --- |
-| [Servidor MCP de Conteúdo do AEM no Registro de IA](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp){target="_blank"} | Lista de ferramentas e disponibilidade |
+| [Documentação do AEM MCP Server](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview){target="_blank"} | Lista de ferramentas e disponibilidade |
 | [Documentação do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service){target="_blank"} | Documentação completa do aplicativo do AEM |
