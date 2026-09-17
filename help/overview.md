@@ -1,14 +1,12 @@
 ---
 title: Ferramentas Corporativas do Adobe CX
-description: Conecte agentes de IA e ferramentas de desenvolvimento aos recursos do Adobe CX Enterprise usando servidores MCP, habilidades do agente e APIs.
-last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
+description: Conecte agentes de IA e ferramentas de desenvolvimento aos recursos da Adobe CX Enterprise usando servidores MCP, habilidades de agente e APIs.
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 1%
-
+source-wordcount: '809'
+ht-degree: 5%
 ---
-
 
 # Ferramentas Corporativas do Adobe CX
 
@@ -19,7 +17,7 @@ ht-degree: 1%
 Deixe a IA se tornar seu colaborador para o Adobe CX Enterprise. Conecte seu cliente de IA a campanhas, públicos, jornadas e conteúdo. Interaja com eles em linguagem simples a partir de qualquer ferramenta que você já usa. Nenhuma interface nova, nenhuma alternância de contexto, nenhum código necessário para começar.
 
 >[!TIP]
->**Comece com o CX Co-worker Gateway.** Uma conexão fornece ao cliente de IA acesso à Adobe Journey Optimizer, Customer Journey Analytics e Real-Time CDP com base nas licenças da organização. [Conectar agora](tools/mcp-servers.md#cx-coworker-gateway)
+>**Iniciar com o CX Enterprise Coworker.** Ele se conecta aos aplicativos CX Enterprise sem a necessidade de configuração do servidor ou do cliente de IA. [Experimente o CX Enterprise Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home)
 
 <!--
 CARDS
@@ -63,7 +61,7 @@ CARDS
                 </div>
                 <a href="tools/mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Explorar Servidores MCP</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -86,7 +84,7 @@ CARDS
                 </div>
                 <a href="tools/agent-skills.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Explorar habilidades do agente</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -109,7 +107,7 @@ CARDS
                 </div>
                 <a href="tools/apis.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Explorar APIs para Construtores</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -122,7 +120,7 @@ CARDS
 
 >[!TAB Servidores MCP]
 
-Use qualquer cliente de IA compatível para acessar os aplicativos do CX Enterprise em linguagem simples. Nenhum código necessário. Comece com o gateway do CX Co-worker para uma única conexão com o AJO, o CJA e o Real-Time CDP ou conecte-se diretamente ao AEM e a outros aplicativos.
+Use qualquer cliente de IA compatível para acessar os aplicativos do CX Enterprise em linguagem simples. Nenhum código necessário. Comece com o CX Enterprise Coworker para obter o caminho mais rápido entre os aplicativos ou conecte-se diretamente ao AJO, CJA, AEM e outros aplicativos com seu próprio servidor MCP.
 
 - Conectar-se em minutos de Claude, Cursor, ChatGPT e outros clientes compatíveis com MCP
 - Consultar campanhas, públicos e dados de jornada usando linguagem natural
@@ -191,7 +189,7 @@ CARDS
                 </div>
                 <a href="use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Insights de campanha de superfície</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -214,7 +212,7 @@ CARDS
                 </div>
                 <a href="use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Enviar conteúdo mais rápido</span>
-                
+                </a>
             </div>
         </div>
     </div>

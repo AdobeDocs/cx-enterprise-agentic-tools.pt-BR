@@ -1,14 +1,12 @@
 ---
 title: Entenda seus públicos-alvo e onde eles são ativados
-description: Use o CX Co-worker Gateway para monitorar o status de ativação do público-alvo, verificar a integridade do destino e exibir problemas antes que eles afetem suas campanhas.
-last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
+description: Use o Real-Time CDP MCP Server para monitorar o status de ativação do público-alvo, verificar a integridade do destino e exibir problemas antes que eles afetem suas campanhas.
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 2%
-
+source-wordcount: '993'
+ht-degree: 4%
 ---
-
 
 # Entenda seus públicos-alvo e onde eles são ativados
 
@@ -18,12 +16,16 @@ ht-degree: 2%
 
 *Selecione para aplicar zoom.*
 
-Saber quais públicos-alvo estão ativos, onde eles estão fluindo e se os destinos estão íntegros é essencial antes do lançamento de uma campanha ou quando o desempenho é baixo. Esta apresentação mostra como obter uma imagem de ativação completa por meio de um cliente de IA, usando o CX Co-Worker Gateway para exibir o status do público-alvo e a integridade do destino em segundos, sem abrir o Real-Time CDP.
+Saber quais públicos-alvo estão ativos, onde eles estão fluindo e se os destinos estão íntegros é essencial antes do lançamento de uma campanha ou quando o desempenho é baixo. Esta apresentação mostra como obter uma imagem de ativação completa por meio de um cliente de IA, usando o servidor MCP do Real-Time CDP para exibir o status do público-alvo e a integridade do destino em segundos, sem abrir o Real-Time CDP.
+
+>[!NOTE]
+>
+>O Real-Time CDP MCP Server está em versão beta pública e requer que sua organização seja reconhecida para acesso.
 
 | Detalhes do cenário | |
 | --- | --- |
 | Aplicativos corporativos CX | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home) |
-| Ferramentas de agilidade | [CX Co-worker Gateway](../tools/mcp-servers.md#cx-coworker-gateway) |
+| Ferramentas agênticas | [CX Enterprise Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home) ou [Real-Time CDP MCP Server](../tools/mcp-servers.md) |
 | Público-alvo | Profissionais de marketing, analistas, operadores |
 | Pré-requisito | Cliente de IA compatível com MCP, acesso ao Real-Time CDP |
 
@@ -33,33 +35,39 @@ Cada etapa mostra um prompt representativo e um exemplo de resposta de IA. Segue
 
 >[!BEGINTABS]
 
+>[!TAB CX Enterprise Coworker]
+
+A maneira mais rápida de obter essa imagem de ativação é o CX Enterprise Coworker, que não requer nenhuma configuração do servidor ou do cliente de IA. [Experimente o CX Enterprise Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home)
+
+Se você preferir conectar seu próprio cliente de IA diretamente ao Real-Time CDP, consulte as guias abaixo. O Real-Time CDP MCP Server está em versão beta pública e requer que sua organização seja reconhecida.
+
 >[!TAB Claude.ai]
 
-Conecte o CX Co-worker Gateway como um conector personalizado para acessar as ferramentas do Real-Time CDP.
+Conecte o Real-Time CDP MCP Server como um conector personalizado.
 
 1. Vá para **Configurações > Integrações** em Claude.ai.
-2. Selecione **Adicionar conector personalizado** e insira a URL do servidor: `https://cx-coworker-gateway.adobe.io/mcp`
+2. Selecione **Adicionar conector personalizado** e insira a URL do servidor: `https://rtcdp-mcp.adobe.io/mcp`
 3. Selecione **Conectar** e entre com sua Adobe ID.
 
 Configuração completa: [documentação dos Conectores personalizados do Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB GPTchat]
 
-Conecte o CX Co-worker Gateway usando o ChatGPT Developer Mode (plano Pro, Plus, Business, Enterprise ou Education necessário).
+Conecte o Real-Time CDP MCP Server usando o modo de desenvolvedor ChatGPT (plano Pro, Plus, Business, Enterprise ou Education necessário).
 
 1. Habilite o **Modo de Desenvolvedor** em **Configurações de ChatGPT**.
 2. Vá para **Configurações > Integrações** e selecione **Adicionar conector personalizado > Servidor MCP remoto**.
-3. Digite a URL do servidor: `https://cx-coworker-gateway.adobe.io/mcp`
+3. Digite a URL do servidor: `https://rtcdp-mcp.adobe.io/mcp`
 4. Selecione **Conectar** e entre com sua Adobe ID.
 
 Configuração completa: [Documentação de MCP ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB Outros clientes de IA]
 
-Usando Gemini, Microsoft Copilot, Cursor, Claude Code ou outro ambiente compatível com MCP? Conecte-se ao CX Co-worker Gateway usando este endpoint:
+Usando Gemini, Microsoft Copilot, Cursor, Claude Code ou outro ambiente compatível com MCP? Conecte-se ao Servidor MCP do Real-Time CDP usando este endpoint:
 
 ```
-https://cx-coworker-gateway.adobe.io/mcp
+https://rtcdp-mcp.adobe.io/mcp
 ```
 
 Instruções completas de instalação para todos os clientes com suporte: [Conecte-se ao cliente de IA](../tools/mcp-servers.md)
@@ -123,7 +131,7 @@ Where are our audiences currently being activated and to which destinations?
 
 ## Etapa 4: obter recomendações estratégicas
 
-As ferramentas RTCDP do CX Co-Worker Gateway são somente leitura — elas exibem o status de ativação, a integridade do destino e os dados de fluxo de dados, mas não modificam a configuração. Depois de identificar um problema, a correção acontece no aplicativo.
+As ferramentas do Real-Time CDP MCP Server são somente leitura — elas exibem o status de ativação, a integridade de destino e os dados de fluxo de dados, mas não modificam a configuração. Depois de identificar um problema, a correção acontece no aplicativo.
 
 ```
 If you were our audience strategist, what would you prioritize next and why?
@@ -140,7 +148,7 @@ If you were our audience strategist, what would you prioritize next and why?
 
 >[!NOTE]
 >
->As ferramentas do RTCDP do CX Co-worker Gateway exibem os dados de destino e de ativação, mas não podem modificar a configuração de destino, as definições de segmento ou as configurações de fluxo de dados. As etapas de correção ocorrem no aplicativo Real-Time CDP.
+>As ferramentas do Servidor MCP do Real-Time CDP exibem os dados de destino e de ativação, mas não podem modificar a configuração de destino, as definições de segmento ou as configurações de fluxo de dados. As etapas de correção ocorrem no aplicativo Real-Time CDP.
 
 ## O que você realizou
 
@@ -148,7 +156,7 @@ Você conectou um cliente de IA à Real-Time CDP e criou uma imagem estratégica
 
 ## Mais você pode realizar
 
-As ferramentas do Real-Time CDP do CX Co-worker Gateway oferecem suporte a uma ampla variedade de consultas de público-alvo e ativação. Expanda um cenário abaixo para ver os prompts que você pode tentar na mesma sessão.
+O Real-Time CDP MCP Server é compatível com uma ampla variedade de consultas de público-alvo e ativação. Expanda um cenário abaixo para ver os prompts que você pode tentar na mesma sessão.
 
 +++Saber exatamente o que está fluindo para onde antes de uma campanha enviar
 
