@@ -5,7 +5,7 @@ last-substantial-update: 2026-09-16
 source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
 source-wordcount: '2400'
-ht-degree: 6%
+ht-degree: 8%
 ---
 
 # Servidores MCP
@@ -21,12 +21,12 @@ Os servidores MCP do Adobe seguem o padrão [Model Context Protocol](https://mod
 >[!CONTEXTUALHELP]
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
 >title="CX Enterprise Coworker"
->abstract="Pergunte, analise e execute ações nos aplicativos da CX Enterprise em linguagem simples, sem a configuração do servidor. Para aplicativos individuais com seu próprio servidor MCP, conecte-se diretamente."
+>abstract="Pergunte, analise e execute ações nos aplicativos CX Enterprise em linguagem simples, sem precisar configurar o servidor. Nos aplicativos individuais com seu próprio servidor MCP, em vez disso, conecte-se diretamente."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home" text="Documentação do CX Enterprise Coworker"
 
-![CX Enterprise Coworker conectando um cliente AI a aplicativos CX Enterprise](../assets/mcp-sub-hero.gif)
+![CX Enterprise Coworker conectando um cliente de IA a aplicativos da CX Enterprise](../assets/mcp-sub-hero.gif)
 
-**A maneira mais rápida de trabalhar com os aplicativos CX Enterprise é com o CX Enterprise Coworker.** Ele se conecta aos aplicativos CX Enterprise sem nenhuma configuração de servidor, sem endpoint para registrar e sem configuração de cliente de IA. [Experimente o CX Enterprise Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home)
+**A maneira mais rápida de trabalhar com seus aplicativos da CX Enterprise é com o CX Enterprise Coworker.** Ele se conecta aos aplicativos do CX Enterprise sem nenhuma configuração de servidor, sem endpoint para registrar e sem configuração de cliente de IA. [Experimente o CX Enterprise Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home)
 
 Se você preferir conectar seu próprio cliente de IA diretamente a um aplicativo específico do Adobe, vários aplicativos também terão seu próprio servidor MCP.
 
@@ -166,7 +166,7 @@ Se um administrador não puder adicioná-la ou se você quiser a conexão soment
 7. Definir **Autenticação** para **OAuth**.
 8. Leia e aceite os termos de serviço.
 9. Selecione **Criar**.
-10. Faça logon com a conta da Adobe que tem acesso ao aplicativo CX Enterprise ao qual o servidor MCP se conecta.
+10. Faça logon com a conta do Adobe que tem acesso ao aplicativo do CX Enterprise ao qual o servidor MCP se conecta.
 
 Configuração completa: [Documentação de MCP ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
@@ -391,7 +391,7 @@ Depois que um recurso de sessão é definido, você pode alterná-lo a qualquer 
 
 Os clientes de IA agem em nome da sua conta de usuário do Adobe usando OAuth. As mesmas permissões e controles de acesso que se aplicam quando você faz logon em um aplicativo do Adobe se aplicam quando você usa um servidor MCP.
 
-Se uma ação falhar ou não retornar resultados, verifique se o usuário tem as permissões necessárias no Adobe Admin Console e no aplicativo CX Enterprise relevante. Entre em contato com o administrador do sistema da Adobe se precisar ajustar o acesso.
+Se uma ação falhar ou não retornar resultados, verifique se o usuário tem as permissões necessárias no Adobe Admin Console e no aplicativo relevante do CX Enterprise. Entre em contato com o administrador do sistema da Adobe se precisar ajustar o acesso.
 
 +++
 
