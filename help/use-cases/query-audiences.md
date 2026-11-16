@@ -1,22 +1,22 @@
 ---
 title: Entenda seus públicos-alvo e onde eles são ativados
 description: Use o Real-Time CDP MCP Server para monitorar o status de ativação do público-alvo, verificar a integridade do destino e exibir problemas antes que eles afetem suas campanhas.
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 4%
+source-wordcount: '1080'
+ht-degree: 3%
 ---
 
 # Entenda seus públicos-alvo e onde eles são ativados
 
 <!-- last-modified: 2026-06-04 -->
 
-![Cliente de IA que fornece uma estratégia de público-alvo priorizada com recomendações de ativação](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
+![Plataforma de IA que fornece uma estratégia de público-alvo priorizada com recomendações de ativação](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
 
 *Selecione para aplicar zoom.*
 
-Saber quais públicos-alvo estão ativos, onde eles estão fluindo e se os destinos estão íntegros é essencial antes do lançamento de uma campanha ou quando o desempenho é baixo. Esta apresentação mostra como obter uma imagem de ativação completa por meio de um cliente de IA, usando o servidor MCP do Real-Time CDP para exibir o status do público-alvo e a integridade do destino em segundos, sem abrir o Real-Time CDP.
+Saber quais públicos-alvo estão ativos, onde eles estão fluindo e se os destinos estão íntegros é essencial antes do lançamento de uma campanha ou quando o desempenho é baixo. Esta apresentação mostra como obter uma imagem de ativação completa por meio de uma plataforma de IA, usando o servidor MCP do Real-Time CDP para exibir o status do público-alvo e a integridade do destino em segundos, sem abrir o Real-Time CDP.
 
 >[!NOTE]
 >
@@ -24,10 +24,10 @@ Saber quais públicos-alvo estão ativos, onde eles estão fluindo e se os desti
 
 | Detalhes do cenário | |
 | --- | --- |
-| Aplicativos corporativos CX | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home) |
-| Ferramentas agênticas | [CX Enterprise Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home) ou [Real-Time CDP MCP Server](../tools/mcp-servers.md) |
+| aplicativos CX Enterprise | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home) |
+| Ferramentas agênticas | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home), [Adobe CX Enterprise Coworker para Plataformas de IA](../tools/mcp-servers.md#connect-to-your-ai-platform) ou [Real-Time CDP MCP Server](../tools/mcp-servers.md) |
 | Público-alvo | Profissionais de marketing, analistas, operadores |
-| Pré-requisito | Cliente de IA compatível com MCP, acesso ao Real-Time CDP |
+| Pré-requisito | Acesso ao Real-Time CDP, além do Coworker, uma plataforma de IA com o Coworker para plataformas de IA ou uma plataforma de IA compatível com o MCP |
 
 Cada etapa mostra um prompt representativo e um exemplo de resposta de IA. Segue-se uma seção **Mais que você pode realizar** para exploração adicional na mesma sessão.
 
@@ -35,11 +35,15 @@ Cada etapa mostra um prompt representativo e um exemplo de resposta de IA. Segue
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-A maneira mais rápida de obter essa imagem de ativação é o CX Enterprise Coworker, que não requer nenhuma configuração do servidor ou do cliente de IA. [Experimente o CX Enterprise Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home)
+A maneira mais rápida de obter essa imagem de ativação é o Coworker, que não requer nenhuma configuração do servidor ou da plataforma de IA. [Experimente o Colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home)
 
-Se você preferir conectar seu próprio cliente de IA diretamente ao Real-Time CDP, consulte as guias abaixo. O Real-Time CDP MCP Server está em versão beta pública e requer que sua organização seja reconhecida.
+Se você não pode ou não quer usar o Coworker diretamente, use-o a partir de sua própria plataforma de IA. Consulte a guia **Colaborador para plataformas de IA**. Se isso também não funcionar, conecte sua plataforma de IA diretamente ao servidor MCP do Real-Time CDP usando as guias restantes. O Real-Time CDP MCP Server está em versão beta pública e requer que sua organização seja reconhecida.
+
+>[!TAB Colaborador para plataformas de IA]
+
+Você também pode concluir essa apresentação com o Co-worker para plataformas de IA da sua própria plataforma de IA. [Configurar o Colaborador para plataformas de IA](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Documentação do Adobe](https://experienceleague.adobe.com/pt-br/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
@@ -62,7 +66,7 @@ Conecte o Real-Time CDP MCP Server usando o modo de desenvolvedor ChatGPT (plano
 
 Configuração completa: [Documentação de MCP ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB Outros clientes de IA]
+>[!TAB Outras plataformas de IA]
 
 Usando Gemini, Microsoft Copilot, Cursor, Claude Code ou outro ambiente compatível com MCP? Conecte-se ao Servidor MCP do Real-Time CDP usando este endpoint:
 
@@ -70,7 +74,7 @@ Usando Gemini, Microsoft Copilot, Cursor, Claude Code ou outro ambiente compatí
 https://rtcdp-mcp.adobe.io/mcp
 ```
 
-Instruções completas de instalação para todos os clientes com suporte: [Conecte-se ao cliente de IA](../tools/mcp-servers.md)
+Instruções completas de configuração para todas as plataformas de IA compatíveis: [Conectar-se à plataforma de IA](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -88,7 +92,7 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++Ver um exemplo de resposta
 
-![Listagem de clientes de IA disponíveis e os comportamentos dos clientes que eles representam](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
+![Lista de públicos-alvo disponíveis da plataforma de IA e os comportamentos dos clientes que eles representam](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
 
 *Selecione para aplicar zoom.*
 
@@ -105,7 +109,7 @@ Which audiences are the largest and what makes them valuable?
 
 +++Ver um exemplo de resposta
 
-![Cliente de IA identificando os maiores públicos e explicando o que os torna valiosos](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
+![Plataforma de IA identificando os maiores públicos e explicando o que os torna valiosos](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
 
 *Selecione para aplicar zoom.*
 
@@ -122,7 +126,7 @@ Where are our audiences currently being activated and to which destinations?
 
 +++Ver um exemplo de resposta
 
-![Cliente de IA mostrando o status de ativação de público-alvo e o mapeamento de destino](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
+![Plataforma de IA mostrando o status de ativação de público e o mapeamento de destino](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
 
 *Selecione para aplicar zoom.*
 
@@ -139,7 +143,7 @@ If you were our audience strategist, what would you prioritize next and why?
 
 +++Ver um exemplo de resposta
 
-![Cliente de IA dando recomendações de estratégia de público-alvo priorizado](../assets/use-cases/query-audiences/query-audiences-step4.gif){zoomable="yes"}
+![Plataforma de IA que fornece recomendações de estratégia de público-alvo priorizado](../assets/use-cases/query-audiences/query-audiences-step4.gif){zoomable="yes"}
 
 *Selecione para aplicar zoom.*
 
@@ -152,7 +156,7 @@ If you were our audience strategist, what would you prioritize next and why?
 
 ## O que você realizou
 
-Você conectou um cliente de IA à Real-Time CDP e criou uma imagem estratégica do seu portfólio de público-alvo em quatro prompts. Você mapeou os públicos-alvo disponíveis para os comportamentos dos clientes que eles capturam, identificou os segmentos maiores e mais valiosos, confirmou para onde cada público-alvo está fluindo e para quais destinos e recebeu recomendações priorizadas na próxima ativação. Isso substitui a navegação em várias telas do Real-Time CDP por uma conversa direta e estratégica.
+Você usou o Coworker ou a plataforma de IA com o Real-Time CDP e criou uma imagem estratégica do portfólio de público-alvo em quatro prompts. Você mapeou os públicos-alvo disponíveis para os comportamentos dos clientes que eles capturam, identificou os segmentos maiores e mais valiosos, confirmou para onde cada público-alvo está fluindo e para quais destinos e recebeu recomendações priorizadas na próxima ativação. Isso substitui a navegação em várias telas do Real-Time CDP por uma conversa direta e estratégica.
 
 ## Mais você pode realizar
 
