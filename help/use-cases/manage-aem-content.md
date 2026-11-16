@@ -1,29 +1,29 @@
 ---
 title: Mantenha o conteúdo atualizado e envie atualizações com mais rapidez
 description: Use o AEM MCP Server para localizar, revisar, atualizar e publicar conteúdo do AEM sem alternar entre as ferramentas.
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 8%
+source-wordcount: '1104'
+ht-degree: 7%
 ---
 
 # Mantenha o conteúdo atualizado e envie atualizações com mais rapidez
 
 <!-- last-modified: 2026-05-22 -->
 
-![O cliente da IA confirmou que a página foi publicada e retornou a URL ativa](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png){zoomable="yes"}
+![A plataforma de IA confirma que a página foi publicada e retorna a URL ativa](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png){zoomable="yes"}
 
 *Selecione para aplicar zoom.*
 
-Manter o conteúdo do site atualizado é uma pressão operacional constante. Esta apresentação mostra como as equipes de conteúdo podem encontrar, revisar, atualizar e publicar páginas e fragmentos de conteúdo do AEM por meio de um cliente de IA, usando o servidor MCP do AEM para reduzir o tempo entre uma decisão de conteúdo e uma atualização em tempo real.
+Manter o conteúdo do site atualizado é uma pressão operacional constante. Esta apresentação mostra como as equipes de conteúdo podem encontrar, revisar, atualizar e publicar páginas e fragmentos de conteúdo do AEM por meio de uma plataforma de IA, usando o servidor MCP do AEM para reduzir o tempo entre uma decisão de conteúdo e uma atualização em tempo real.
 
 | Detalhes do cenário | |
 | --- | --- |
-| Aplicativos corporativos CX | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/overview/introduction?lang=pt-BR) |
-| Ferramentas agênticas | [CX Enterprise Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home) ou [AEM MCP Server](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
+| aplicativos CX Enterprise | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/overview/introduction?lang=pt-BR) |
+| Ferramentas agênticas | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home), [Adobe CX Enterprise Coworker para Plataformas de IA](../tools/mcp-servers.md#connect-to-your-ai-platform) ou [AEM MCP Server](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
 | Público-alvo | Gerentes de conteúdo, equipes de marketing |
-| Pré-requisito | Cliente de IA compatível com MCP, acesso ao AEM as a Cloud Service |
+| Pré-requisito | Acesso ao AEM as a Cloud Service, além do Coworker, uma plataforma de IA com o Coworker para plataformas de IA ou uma plataforma de IA compatível com o MCP |
 
 Cada etapa mostra um prompt representativo e um exemplo de resposta de IA. Segue-se uma seção **Mais que você pode realizar** para exploração adicional na mesma sessão.
 
@@ -31,11 +31,15 @@ Cada etapa mostra um prompt representativo e um exemplo de resposta de IA. Segue
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-A maneira mais rápida de fazer isso é no CX Enterprise Coworker, que não requer nenhuma configuração de servidor ou de cliente de IA. [Experimente o CX Enterprise Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home)
+A maneira mais rápida de fazer isso é o Coworker, que não requer nenhuma configuração de servidor ou de plataforma de IA. [Experimente o Colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home)
 
-Se você preferir conectar seu próprio cliente de IA diretamente ao AEM, consulte as guias abaixo.
+Se você não pode ou não quer usar o Coworker diretamente, use-o a partir de sua própria plataforma de IA. Consulte a guia **Colaborador para plataformas de IA**. Se isso também não funcionar, conecte sua plataforma de IA diretamente ao servidor MCP do AEM usando as guias restantes.
+
+>[!TAB Colaborador para plataformas de IA]
+
+Você também pode concluir essa apresentação com o Co-worker para plataformas de IA da sua própria plataforma de IA. [Configurar o Colaborador para plataformas de IA](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Documentação do Adobe](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
@@ -58,7 +62,7 @@ Conecte o AEM MCP Server usando o modo de desenvolvedor ChatGPT (plano Pro, Plus
 
 Configuração completa: [Documentação de MCP ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB Outros clientes de IA]
+>[!TAB Outras plataformas de IA]
 
 Usando Gemini, Microsoft Copilot, Cursor, Claude Code ou outro ambiente compatível com MCP? Conecte-se ao Servidor MCP do AEM usando este endpoint:
 
@@ -66,21 +70,21 @@ Usando Gemini, Microsoft Copilot, Cursor, Claude Code ou outro ambiente compatí
 https://mcp.adobeaemcloud.com/adobe/mcp/aem
 ```
 
-Instruções completas de instalação para todos os clientes com suporte: [Conecte-se ao cliente de IA](../tools/mcp-servers.md)
+Instruções completas de configuração para todas as plataformas de IA compatíveis: [Conectar-se à plataforma de IA](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->Faça logon com sua Adobe ID quando solicitado e selecione a organização IMS vinculada ao seu ambiente AEM as a Cloud Service. As permissões são aplicadas no nível da AEM. O cliente de IA só pode executar operações para as quais sua conta está autorizada.
+>Faça logon com sua Adobe ID quando solicitado e selecione a organização IMS vinculada ao seu ambiente AEM as a Cloud Service. As permissões são aplicadas no nível da AEM. Sua plataforma de IA só pode executar operações para as quais sua conta está autorizada.
 >
->Na primeira conexão, o cliente de IA pode solicitar que você confirme a organização ou o ambiente do AEM. Depois que o contexto é definido, o servidor MCP o utiliza para o restante da sessão.
+>Na primeira conexão, a plataforma de IA pode solicitar que você confirme a organização ou o ambiente do AEM. Depois que o contexto é definido, o servidor MCP o utiliza para o restante da sessão.
 >
 >Algumas ferramentas solicitam sua aprovação antes de serem executadas. Revise a ação proposta e aprove ou recuse. Nenhuma alteração será feita sem a sua confirmação.
 
 ## Etapa 1: encontrar conteúdo no ambiente do AEM
 
-Comece pedindo ao cliente de IA que descubra os ambientes do AEM e pesquise o conteúdo. Você pode pesquisar por tópico, palavra-chave ou tipo de conteúdo sem conhecer os caminhos exatos.
+Comece solicitando que sua plataforma de IA descubra os ambientes do AEM e pesquise o conteúdo. Você pode pesquisar por tópico, palavra-chave ou tipo de conteúdo sem conhecer os caminhos exatos.
 
 ```
 From WKND Dev environment, find all ski related content.
@@ -88,7 +92,7 @@ From WKND Dev environment, find all ski related content.
 
 +++Ver um exemplo de resposta
 
-![Cliente de IA mostrando os resultados da pesquisa de conteúdo de esqui do ambiente WKND Dev AEM](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png){zoomable="yes"}
+![Plataforma de IA mostrando resultados da pesquisa de conteúdo de esqui do ambiente WKND Dev AEM](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png){zoomable="yes"}
 
 *Selecione para aplicar zoom.*
 
@@ -97,7 +101,7 @@ From WKND Dev environment, find all ski related content.
 
 ## Etapa 2: revisar uma página específica
 
-Depois de localizar o conteúdo relevante, peça ao cliente de IA para mostrar uma página específica. É possível consultar as páginas por nome ou caminho. O servidor MCP resolve a referência e retorna a estrutura do conteúdo.
+Depois de localizar o conteúdo relevante, peça à plataforma de IA para mostrar uma página específica. É possível consultar as páginas por nome ou caminho. O servidor MCP resolve a referência e retorna a estrutura do conteúdo.
 
 ```
 Show me the US English Home Page.
@@ -105,7 +109,7 @@ Show me the US English Home Page.
 
 +++Ver um exemplo de resposta
 
-![Cliente de IA mostrando a estrutura de conteúdo da página inicial em inglês dos EUA do AEM](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png){zoomable="yes"}
+![Plataforma de IA mostrando a estrutura de conteúdo da página inicial em inglês dos EUA do AEM](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png){zoomable="yes"}
 
 *Selecione para aplicar zoom.*
 
@@ -114,7 +118,7 @@ Show me the US English Home Page.
 
 ## Etapa 3: Melhorar o conteúdo
 
-Com o conteúdo da página em exibição, peça ao cliente de IA para sugerir ou aplicar melhorias. A IA pode propor alterações de cópia com base no que a página diz atualmente e solicitar confirmação antes de escrever qualquer coisa.
+Com o conteúdo da página em exibição, peça à sua plataforma de IA para sugerir ou aplicar melhorias. A IA pode propor alterações de cópia com base no que a página diz atualmente e solicitar confirmação antes de escrever qualquer coisa.
 
 ```
 Improve the Hero CTAs.
@@ -122,7 +126,7 @@ Improve the Hero CTAs.
 
 +++Ver um exemplo de resposta
 
-![Cliente de IA propondo cópia aprimorada do Hero CTA com um prompt de confirmação antes de aplicar as alterações](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif){zoomable="yes"}
+![Plataforma de IA propondo cópia aprimorada do Hero CTA com um prompt de confirmação antes de aplicar as alterações](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif){zoomable="yes"}
 
 *Selecione para aplicar zoom.*
 
@@ -143,7 +147,7 @@ Publish the changes and share the URL.
 
 +++Ver um exemplo de resposta
 
-![O cliente da IA confirmou que a página foi publicada e retornou a URL ativa](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif){zoomable="yes"}
+![A plataforma de IA confirma que a página foi publicada e retorna a URL ativa](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif){zoomable="yes"}
 
 *Selecione para aplicar zoom.*
 

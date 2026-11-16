@@ -1,30 +1,32 @@
 ---
-title: Ferramentas Corporativas do Adobe CX
+title: Ferramentas do Adobe CX Enterprise Agent
 description: Conecte agentes de IA e ferramentas de desenvolvimento aos recursos da Adobe CX Enterprise usando servidores MCP, habilidades de agente e APIs.
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '863'
 ht-degree: 5%
 ---
 
-# Ferramentas Corporativas do Adobe CX
+# Ferramentas do Adobe CX Enterprise Agent
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491248/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
-Deixe a IA se tornar seu colaborador para o Adobe CX Enterprise. Conecte seu cliente de IA a campanhas, públicos, jornadas e conteúdo. Interaja com eles em linguagem simples a partir de qualquer ferramenta que você já usa. Nenhuma interface nova, nenhuma alternância de contexto, nenhum código necessário para começar.
+Deixe a IA se tornar seu colaborador para o Adobe CX Enterprise. Conecte sua plataforma de IA a campanhas, públicos, jornadas e conteúdo. Interaja com eles em linguagem simples a partir de qualquer ferramenta que você já usa. Nenhuma interface nova, nenhuma alternância de contexto, nenhum código necessário para começar.
 
 >[!TIP]
->**Iniciar com o CX Enterprise Coworker.** Ele se conecta aos aplicativos CX Enterprise sem a necessidade de configuração do servidor ou do cliente de IA. [Experimente o CX Enterprise Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home)
+>**Iniciar com o Adobe CX Enterprise Coworker.** Ele é compatível com seus aplicativos da CX Enterprise, sem a necessidade de configuração do servidor ou da plataforma de IA. [Experimente o Colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home)
+>
+>Prefere ficar em Claude, ChatGPT, Microsoft 365 Copilot ou outra plataforma de IA? Use o [Adobe CX Enterprise Coworker para Plataformas de IA](tools/mcp-servers.md#connect-to-your-ai-platform). Se nenhum deles funcionar para você, conecte sua plataforma de IA aos [servidores MCP do produto](tools/mcp-servers.md#connect-to-your-ai-platform).
 
 <!--
 CARDS
 
 * tools/mcp-servers.md
   {title = MCP Servers}
-  {description = Connect any MCP-compatible AI client to Adobe CX Enterprise workflows. Query data, analyze campaigns, and access audiences without leaving your AI tool.}
+  {description = Connect any MCP-compatible AI platform to Adobe CX Enterprise workflows. Query data, analyze campaigns, and access audiences without leaving your AI tool.}
   {cta = Explore MCP Servers}
   {image = assets/mcp-servers-card.png}
 
@@ -57,7 +59,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="tools/mcp-servers.md" title="Servidores MCP">Servidores MCP</a>
                     </p>
-                    <p class="is-size-6">Conecte qualquer cliente de IA compatível com MCP aos workflows do Adobe CX Enterprise. Consulte dados, analise campanhas e acesse públicos sem sair da ferramenta de IA.</p>
+                    <p class="is-size-6">Conecte qualquer plataforma de IA compatível com MCP aos workflows do Adobe CX Enterprise. Consulte dados, analise campanhas e acesse públicos sem sair da ferramenta de IA.</p>
                 </div>
                 <a href="tools/mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Explorar Servidores MCP</span>
@@ -103,7 +105,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="tools/apis.md" title="APIs para construtores">APIs para Construtores</a>
                     </p>
-                    <p class="is-size-6">Crie aplicativos Adobe CX Enterprise personalizados usando ferramentas de codificação agêntica, como o código Claude e o cursor.</p>
+                    <p class="is-size-6">Crie aplicativos Adobe CX Enterprise personalizados usando ferramentas de codificação agêntica, como o Claude Code e o Cursor.</p>
                 </div>
                 <a href="tools/apis.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Explorar APIs para Construtores</span>
@@ -120,9 +122,9 @@ CARDS
 
 >[!TAB Servidores MCP]
 
-Use qualquer cliente de IA compatível para acessar os aplicativos do CX Enterprise em linguagem simples. Nenhum código necessário. Comece com o CX Enterprise Coworker para obter o caminho mais rápido entre os aplicativos ou conecte-se diretamente ao AJO, CJA, AEM e outros aplicativos com seu próprio servidor MCP.
+Use qualquer plataforma de IA compatível para acessar os aplicativos da CX Enterprise em linguagem simples. Nenhum código necessário. Comece com o colega de trabalho para obter o caminho mais rápido entre os aplicativos. Para permanecer em sua própria plataforma de IA, use o Co-worker para plataformas de IA. Se nenhum deles funcionar para você, conecte-se diretamente ao AJO, CJA, AEM e outros aplicativos com seu próprio servidor MCP.
 
-- Conectar-se em minutos de Claude, Cursor, ChatGPT e outros clientes compatíveis com MCP
+- Conectar-se em minutos a partir de Claude, Cursor, ChatGPT e outras plataformas de IA compatíveis com MCP
 - Consultar campanhas, públicos e dados de jornada usando linguagem natural
 - Não são necessárias novas interfaces nem treinamento
 
@@ -130,17 +132,17 @@ Use qualquer cliente de IA compatível para acessar os aplicativos do CX Enterpr
 
 >[!TAB Habilidades do agente]
 
-As Habilidades do agente codificam a experiência no domínio do Adobe como instruções que o cliente de IA pode seguir. Em vez de improvisar, o agente sabe exatamente o que fazer, de modo confiável, repetitivo e alinhado às práticas recomendadas da Adobe.
+As Habilidades do agente codificam a experiência no domínio do Adobe como instruções que sua plataforma de IA pode seguir. Em vez de improvisar, o agente sabe exatamente o que fazer, de modo confiável, repetitivo e alinhado às práticas recomendadas da Adobe.
 
-- Resultados consistentes para fluxos de trabalho replicáveis do CX Enterprise
+- Resultados consistentes para workflows repetíveis do CX Enterprise
 - Não é necessário explicar o Adobe ao agente: a habilidade lida com ele
-- Funciona com clientes de IA que oferecem suporte às habilidades do agente
+- Funciona em plataformas de IA que oferecem suporte às habilidades do agente
 
 [Explorar habilidades do agente](tools/agent-skills.md)
 
 >[!TAB APIs para Construtores]
 
-Acesso direto e programático às mesmas APIs que alimentam os produtos da Adobe. Crie aplicativos e integrações personalizados que dão à sua equipe acesso controlado a fluxos de trabalho específicos do CX Enterprise.
+Acesso direto e programático às mesmas APIs que alimentam os produtos da Adobe. Crie aplicativos e integrações personalizados que oferecem à sua equipe acesso controlado a fluxos de trabalho específicos do CX Enterprise.
 
 - Crie uma única vez, implante em toda a organização
 - Adicione medidas de proteção, aprovações e uma lógica personalizada às necessidades da sua equipe
@@ -152,7 +154,7 @@ Acesso direto e programático às mesmas APIs que alimentam os produtos da Adobe
 
 ## Ferramentas de agente em ação
 
-Veja como as ferramentas do Adobe CX Enterprise são na prática. Cada apresentação aborda um cenário de negócios real, da configuração ao resultado, mostrando exatamente como conectar um cliente de IA, o que perguntar e o que você recebe de volta.
+Veja como as ferramentas do Adobe CX Enterprise Agentic se parecem na prática. Cada apresentação aborda um cenário real de negócios, da configuração ao resultado, mostrando exatamente como começar a usar o Coworker ou a plataforma de IA, o que perguntar e o que você recebe de volta.
 
 <!--
 CARDS
@@ -226,8 +228,8 @@ CARDS
 | Recurso | O que você encontrará |
 | --- | --- |
 | [Registro do Adobe AI](https://developer.adobe.com/ai-registry/?type=mcp) | Conectores gerenciados e detalhes do servidor para servidores Adobe MCP selecionados |
-| [Habilidades do Adobe Agent](https://github.com/adobe/skills) | Habilidades de agente com curadoria da Adobe para fluxos de trabalho corporativos CX |
-| [Catálogo de APIs do Adobe](https://developer.adobe.com/apis) | Referência completa da API corporativa do Adobe CX |
+| [Habilidades do Adobe Agent](https://github.com/adobe/skills) | Habilidades de agente com curadoria da Adobe para fluxos de trabalho do CX Enterprise |
+| [Catálogo de APIs do Adobe](https://developer.adobe.com/apis) | Referência completa da API do Adobe CX Enterprise |
 | [Console do desenvolvedor da Adobe](https://developer.adobe.com/developer-console/docs/guides/) | Configuração e autenticação do projeto da API |
 | [Adobe Admin Console](https://adminconsole.adobe.com) | Gerenciamento de acesso a usuários e produtos |
-| [Experience League](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/home) | Documentação e tutoriais completos do aplicativo Adobe |
+| [Experience League](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home) | Documentação e tutoriais completos do aplicativo Adobe |
