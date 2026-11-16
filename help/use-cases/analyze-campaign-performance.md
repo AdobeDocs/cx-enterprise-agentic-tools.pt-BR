@@ -20,7 +20,7 @@ A análise de campanha que antes exigia a criação de relatórios em uma ferram
 
 | Detalhes do cenário | |
 | --- | --- |
-| aplicativos CX Enterprise | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| aplicativos CX Enterprise | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview) |
 | Ferramentas agênticas | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home), [Adobe CX Enterprise Coworker para Plataformas de IA](../tools/mcp-servers.md#connect-to-your-ai-platform) ou [Customer Journey Analytics MCP Server](../tools/mcp-servers.md) |
 | Público-alvo | Analistas, gerentes de campanha |
 | Pré-requisito | Acesso ao CJA, além do Coworker, uma plataforma de IA com o Coworker para plataformas de IA ou uma plataforma de IA compatível com o MCP |
@@ -39,7 +39,7 @@ Se você não pode ou não quer usar o Coworker diretamente, use-o a partir de s
 
 >[!TAB Colaborador para plataformas de IA]
 
-Você também pode concluir essa apresentação com o Co-worker para plataformas de IA da sua própria plataforma de IA. [Configurar o Colaborador para plataformas de IA](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Documentação do Adobe](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
+Você também pode concluir essa apresentação com o Co-worker para plataformas de IA da sua própria plataforma de IA. [Configurar o Colaborador para plataformas de IA](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Documentação do Adobe](https://experienceleague.adobe.com/pt-br/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
