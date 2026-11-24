@@ -88,7 +88,7 @@ Documentação completa: [Documentação do colega](https://experienceleague.ado
 
 O Co-worker para plataformas de IA é um servidor MCP que conecta sua plataforma de IA ao Co-worker. Tudo o que está disponível no Co-worker está disponível por meio dele. Você usa sua plataforma de IA, como Claude, ChatGPT, Microsoft 365 Copilot ou Gemini Enterprise, como a interface de bate-papo, e o Coworker faz o trabalho em segundo plano, da mesma forma que usa o Coworker diretamente.
 
->[!VIDEO](https://video.tv.adobe.com/v/3508455/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3508459/?captions=por_br&learn=on&enablevpops)
 
 Você faz logon com suas credenciais da Adobe e o Co-worker usa o acesso vinculado à sua identidade da Adobe. O colega de trabalho está seguro e é regido pelo design. O que você pode ler ou alterar depende de como seu usuário está configurado, do acesso concedido a você no Coworker e do acesso concedido nos aplicativos que o Coworker usa em seu nome. Consulte [Controle de acesso para Colaborador](https://experienceleague.adobe.com/pt-br/docs/coworker/content/administration/access-control).
 
